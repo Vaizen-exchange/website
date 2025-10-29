@@ -1,0 +1,25 @@
+{
+  "name": "Vaizen-nunjucks-templates",
+  "version": "1.0.0",
+  "description": "Nunjucks templates for Vaizen website",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "nodemon -e njk,json,css,js -x 'npm run build'",
+    "serve": "npm run build && npx http-server output -p 8080 -o"
+  },
+  "keywords": [
+    "nunjucks",
+    "templates",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "http-server": "^14.1.1"
+  }
+}

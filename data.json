@@ -1,0 +1,111 @@
+{
+  "title": "Vaizen - Invest in Content Creator Brands",
+  "siteName": "Vaizen",
+  "currentYear": "2025",
+  "hero": {
+    "heading": "Invest in the Future of Content Creation",
+    "description": "Transforming emerging businesses'  access to capital and retail investors participation in brand equity",
+    "buttons": [
+      {
+        "text": "Browse Brands",
+        "url": "#brands",
+        "class": "btn-primary"
+      },
+      {
+        "text": "Learn More",
+        "url": "#how-it-works",
+        "class": "btn-secondary"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "number": "1",
+      "title": "Discover Brands",
+      "description": "Browse through curated content creator brands across various niches. Review metrics, audience demographics, and growth potential."
+    },
+    {
+      "number": "2",
+      "title": "Analyze & Invest",
+      "description": "Review detailed analytics, revenue streams, and business models. Make informed investment decisions with transparent data."
+    },
+    {
+      "number": "3",
+      "title": "Earn Returns",
+      "description": "Receive returns based on brand performance, revenue growth, and equity appreciation. Track your portfolio in real-time."
+    }
+  ],
+  "brands": [
+    {
+      "avatar": "🎮",
+      "name": "GameMaster Pro",
+      "category": "Gaming & Entertainment",
+      "followers": "2.4M",
+      "monthlyViews": "8.5M",
+      "description": "Leading gaming content creator with multiple revenue streams including sponsorships, merchandise, and subscription services.",
+      "seeking": "$500,000",
+      "minInvestment": "$5,000",
+      "equityOffered": "20%",
+      "fundedPercentage": 68,
+      "daysLeft": 15
+    },
+    {
+      "avatar": "🍳",
+      "name": "Chef's Table",
+      "category": "Food & Lifestyle",
+      "followers": "1.8M",
+      "monthlyViews": "12M",
+      "description": "Premium cooking content with cookbook deals, kitchenware line, and partnerships with major food brands.",
+      "seeking": "$350,000",
+      "minInvestment": "$2,500",
+      "equityOffered": "15%",
+      "fundedPercentage": 43,
+      "daysLeft": 22
+    },
+    {
+      "avatar": "💪",
+      "name": "FitLife Academy",
+      "category": "Health & Fitness",
+      "followers": "3.2M",
+      "monthlyViews": "15M",
+      "description": "Fitness empire with workout programs, nutrition plans, apparel line, and app subscription service.",
+      "seeking": "$750,000",
+      "minInvestment": "$10,000",
+      "equityOffered": "25%",
+      "fundedPercentage": 85,
+      "daysLeft": 8
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "📈",
+      "title": "High Growth Potential",
+      "description": "Content creator economy is growing exponentially with massive opportunities for early investors."
+    },
+    {
+      "icon": "🎯",
+      "title": "Diversify Portfolio",
+      "description": "Add alternative assets to your portfolio beyond traditional stocks and real estate."
+    },
+    {
+      "icon": "🔍",
+      "title": "Transparent Metrics",
+      "description": "Access real-time analytics, revenue data, and performance metrics for informed decisions."
+    },
+    {
+      "icon": "💎",
+      "title": "Direct Ownership",
+      "description": "Own actual equity in creator brands and participate in their success journey."
+    },
+    {
+      "icon": "🤝",
+      "title": "Support Innovation",
+      "description": "Help talented creators scale their businesses and bring new ideas to life."
+    },
+    {
+      "icon": "💰",
+      "title": "Multiple Revenue Streams",
+      "description": "Benefit from diverse income sources including ads, sponsorships, products, and subscriptions."
+    }
+  ]
+}

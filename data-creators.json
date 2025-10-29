@@ -1,0 +1,123 @@
+{
+  "title": "For Content Creators - Vaizen",
+  "siteName": "Vaizen",
+  "currentYear": "2025",
+  "page": {
+    "hero": {
+      "heading": "Turn Your Credibility Into Brand Equity",
+      "description": "Access funded campaigns with guaranteed payment. Work with emerging brands while transferring your trust and conviction to help them build market presence.",
+      "buttons": [
+        {
+          "text": "Join Network",
+          "url": "#apply",
+          "class": "btn-primary"
+        },
+        {
+          "text": "View Campaigns",
+          "url": "#opportunities",
+          "class": "btn-secondary"
+        }
+      ]
+    },
+    "valueTransfer": {
+      "title": "The Value Transfer Mechanism",
+      "subtitle": "Your credibility becomes their brand equity",
+      "steps": [
+        {
+          "icon": "🎭",
+          "title": "Your Brand Equity",
+          "description": "You've spent years building your personal brand through your content platforms. Your audiences trust you, listen to you, and value your opinions. This trust is your brand equity."
+        },
+        {
+          "icon": "🤝",
+          "title": "Credibility Transfer",
+          "description": "When you collaborate with a founder's brand, you're not just creating content. You're transferring some of your credibility to them. Your conviction becomes part of their brand story."
+        },
+        {
+          "icon": "📈",
+          "title": "Brand Equity Growth",
+          "description": "Money flowing to you translates directly into brand equity growth for the founder. It's not just about creating content - it's about transferring trust and audience conviction."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Benefits for Content Creators",
+      "subtitle": "A stable revenue stream with guaranteed payment",
+      "items": [
+        {
+          "icon": "💵",
+          "title": "Guaranteed Payment",
+          "description": "Direct payment from investment pool ensures you get paid for your work, regardless of business outcome."
+        },
+        {
+          "icon": "📊",
+          "title": "Stable Revenue Stream",
+          "description": "More funded campaigns flowing into the ecosystem means predictable, recurring revenue for your creative work."
+        },
+        {
+          "icon": "🌟",
+          "title": "More Opportunities",
+          "description": "Work with more emerging brands that have actual budgets. Access campaigns you wouldn't normally have access to."
+        },
+        {
+          "icon": "🎨",
+          "title": "Creative Freedom",
+          "description": "Collaborate across multiple platforms and channels. Partner with other creators to amplify reach and create compelling campaigns."
+        },
+        {
+          "icon": "🚀",
+          "title": "Early Brand Access",
+          "description": "Get in early with promising brands. Build relationships with founders and participate in their growth journey."
+        },
+        {
+          "icon": "🤝",
+          "title": "Trusted Partnerships",
+          "description": "Work with brands that align with your values and audience. Your reputation stays intact while helping others grow."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Simple process from campaign to payment",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Browse Campaigns",
+          "description": "Review available brand campaigns that match your audience and expertise. Choose brands you genuinely believe in."
+        },
+        {
+          "number": "2",
+          "title": "Create Content",
+          "description": "Develop content across multiple platforms and channels. Collaborate with other creators to amplify reach and impact."
+        },
+        {
+          "number": "3",
+          "title": "Get Paid Directly",
+          "description": "Receive guaranteed payment directly from the investment pool. No chasing invoices or waiting for brand success."
+        }
+      ]
+    },
+    "credibility": {
+      "title": "Why Your Credibility Matters",
+      "subtitle": "Content creators are valued for the conviction and trust they command",
+      "points": [
+        {
+          "title": "Trust Is Your Asset",
+          "description": "Your audiences trust your judgment and recommendations. When you align with a brand vision, that trust transfers to help the founder build perception and reputation."
+        },
+        {
+          "title": "Multi-Platform Impact",
+          "description": "You're not limited to promoting only on your own channel. Create content across multiple platforms, collaborate with other creators, and participate in cross-platform campaigns."
+        },
+        {
+          "title": "Real Brand Building",
+          "description": "When a trusted creator with an engaged audience partners with an emerging brand, audiences begin to associate that trust with the new brand. This is how credibility transfer works."
+        },
+        {
+          "title": "Beyond Just Content",
+          "description": "You're valued not for the specific platform you're on, but for the conviction and trust you command with audiences because of your established brand."
+        }
+      ]
+    }
+  }
+}

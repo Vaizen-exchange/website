@@ -1,0 +1,133 @@
+{% extends "_layout.njk" %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>{{ page.hero.heading }}</h1>
+            <p>{{ page.hero.description }}</p>
+            <div class="hero-buttons">
+                {% for button in page.hero.buttons %}
+                <a href="{{ button.url }}" class="{{ button.class }}">{{ button.text }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Model Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">{{ page.model.title }}</h2>
+            <p class="section-subtitle">{{ page.model.subtitle }}</p>
+            
+            <div class="steps">
+                {% for step in page.model.steps %}
+                <div class="step">
+                    <div class="step-icon">{{ step.number }}</div>
+                    <h3>{{ step.title }}</h3>
+                    <p>{{ step.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="featured-brands">
+        <div class="container">
+            <h2 class="section-title">{{ page.benefits.title }}</h2>
+            <p class="section-subtitle">{{ page.benefits.subtitle }}</p>
+            
+            <div class="benefits-grid">
+                {% for benefit in page.benefits.items %}
+                <div class="benefit-card">
+                    <div class="benefit-icon">{{ benefit.icon }}</div>
+                    <h3>{{ benefit.title }}</h3>
+                    <p>{{ benefit.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Comparison -->
+    <section class="how-it-works" id="risk">
+        <div class="container">
+            <h2 class="section-title">{{ page.risk.title }}</h2>
+            <p class="section-subtitle">{{ page.risk.subtitle }}</p>
+            
+            <div class="steps">
+                {% for comparison in page.risk.comparisons %}
+                <div class="step">
+                    <div class="step-icon">{{ comparison.icon }}</div>
+                    <h3>{{ comparison.title }}</h3>
+                    <p>{{ comparison.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Tracking -->
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">{{ page.metrics.title }}</h2>
+            <p class="section-subtitle">{{ page.metrics.subtitle }}</p>
+            
+            <div class="benefits-grid">
+                {% for metric in page.metrics.items %}
+                <div class="benefit-card">
+                    <div class="benefit-icon">{{ metric.icon }}</div>
+                    <h3>{{ metric.name }}</h3>
+                    <p>{{ metric.description }}</p>
+                    {% if metric.insight %}
+                    <div style="margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>Key Insight:</strong> {{ metric.insight }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditional vs New Model -->
+    <section class="featured-brands">
+        <div class="container">
+            <h2 class="section-title">{{ page.comparison.title }}</h2>
+            <p class="section-subtitle">{{ page.comparison.subtitle }}</p>
+            
+            <div class="brand-grid">
+                {% for model in page.comparison.models %}
+                <div class="brand-card">
+                    <div class="brand-header">
+                        <div class="brand-name">{{ model.name }}</div>
+                    </div>
+                    <div class="brand-body">
+                        <ul style="list-style: none; padding: 0;">
+                            {% for point in model.points %}
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
+                                <span style="color: #667eea; margin-right: 0.5rem;">{{ model.icon }}</span>
+                                {{ point }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Start Investing in Brand Equity</h2>
+            <p>Access alternative asset class with transparent deployment and trackable metrics</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Create Account</a>
+                <a href="#" class="btn-secondary">View Opportunities</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

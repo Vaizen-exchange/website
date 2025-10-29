@@ -1,0 +1,16 @@
+<section class="hero">
+    <div class="container">
+        <h1>{{ hero.heading | default("Invest in the Future of Content Creation") }}</h1>
+        <p>{{ hero.description | default("Back talented creators building the next generation of media brands. Earn returns while supporting innovation.") }}</p>
+        <div class="hero-buttons">
+            {% if hero.buttons %}
+                {% for button in hero.buttons %}
+                    <a href="{{ button.url }}" class="{{ button.class }}">{{ button.text }}</a>
+                {% endfor %}
+            {% else %}
+                <a href="#brands" class="btn-primary">Explore Opportunities</a>
+                <a href="#how-it-works" class="btn-secondary">Learn More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>

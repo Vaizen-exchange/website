@@ -1,0 +1,117 @@
+{
+  "title": "For SMEs & Founders - Vaizen",
+  "siteName": "Vaizen",
+  "currentYear": "2025",
+  "page": {
+    "hero": {
+      "heading": "Build Your Brand Without Compromising Your Business",
+      "description": "Access brand-building capital that flows directly to professional channels while you focus on operations. No operational interference, no excessive dilution.",
+      "buttons": [
+        {
+          "text": "Apply Now",
+          "url": "#apply",
+          "class": "btn-primary"
+        },
+        {
+          "text": "Learn How",
+          "url": "#how-it-works",
+          "class": "btn-secondary"
+        }
+      ]
+    },
+    "problem": {
+      "title": "The Funding Challenge",
+      "subtitle": "Traditional venture capital creates a fundamental mismatch with brand-building needs",
+      "challenges": [
+        {
+          "icon": "⏱️",
+          "title": "Long-Term Investment Needed",
+          "description": "Brand building requires sustained effort over years. Building brand perception, trust, and loyalty takes time and consistent investment."
+        },
+        {
+          "icon": "📊",
+          "title": "VCs Want Efficiency",
+          "description": "Traditional venture capital evaluates companies on revenue growth, unit economics, and path to profitability. Heavy brand investment appears as 'burn' that reduces attractiveness."
+        },
+        {
+          "icon": "⚠️",
+          "title": "Risk Perception Problem",
+          "description": "VCs hesitate to fund pure brand-building because 'what if the business fails?' They see it as money wasted with no returns."
+        }
+      ]
+    },
+    "solution": {
+      "title": "How Vaizen Helps Founders",
+      "subtitle": "A new model that separates brand investment from business operations",
+      "benefits": [
+        {
+          "icon": "🎯",
+          "title": "Access Brand Capital",
+          "description": "Get brand-building capital without operational interference or excessive dilution to a single VC."
+        },
+        {
+          "icon": "🚀",
+          "title": "Focus on Operations",
+          "description": "Professional brand-building happens on your behalf while you focus on running the business and growing operations."
+        },
+        {
+          "icon": "👥",
+          "title": "Community of Advocates",
+          "description": "Multiple small investors become brand champions and advocates, creating a community around your vision."
+        },
+        {
+          "icon": "📈",
+          "title": "Build Brand Equity",
+          "description": "Brand equity grows through professional campaigns while you maintain control of your brand vision and identity."
+        },
+        {
+          "icon": "🛡️",
+          "title": "Brand as Moat",
+          "description": "Strong brands create sustainable competitive advantages that are difficult for competitors to replicate."
+        },
+        {
+          "icon": "💰",
+          "title": "No Balance Sheet Burn",
+          "description": "Get professional brand-building without cash burn on your balance sheet. Capital flows directly to channels."
+        }
+      ]
+    },
+    "variables": {
+      "title": "The Two Critical Variables",
+      "subtitle": "Every new business begins with two fundamental assets that determine success",
+      "items": [
+        {
+          "number": "1",
+          "title": "The Brand Vision",
+          "description": "Before operations begin, you have a clear concept of what perception you want to create, what values and emotions the brand should evoke, and how you want to be positioned in the market. This vision exists before funding is secured."
+        },
+        {
+          "number": "2",
+          "title": "The Founder",
+          "description": "Strong founders find creative ways to realize the brand vision despite constraints. They might adjust tactics, but they protect the core brand identity. They're resourceful, resilient, and understand that the brand vision is the fundamental value proposition."
+        }
+      ]
+    },
+    "metrics": {
+      "title": "Track Real Brand Performance",
+      "subtitle": "Better metrics for brand success that actually predict future performance",
+      "items": [
+        {
+          "icon": "📢",
+          "name": "Share of Voice (SOV)",
+          "description": "How much conversation and mental real estate you own in your category. Measures if you're breaking through."
+        },
+        {
+          "icon": "🎯",
+          "name": "Share of Market (SOM)",
+          "description": "Your actual current market position. Measures if you're converting attention into market share."
+        },
+        {
+          "icon": "📊",
+          "name": "Excess Share of Voice (eSOV)",
+          "description": "The delta between SOV and SOM. When your Share of Voice exceeds your Share of Market, it's a leading indicator of future market share growth. You're winning mindshare before market share."
+        }
+      ]
+    }
+  }
+}
