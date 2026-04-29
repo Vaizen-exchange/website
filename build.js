@@ -59,15 +59,25 @@ try {
   
   // Copy CSS and JS files
   console.log('\nCopying static assets...');
-  
+
   // Create directories
   fs.mkdirSync(path.join(outputDir, 'css'), { recursive: true });
   fs.mkdirSync(path.join(outputDir, 'js'), { recursive: true });
-  
-  // Copy files
+
+  // Copy custom files
   fs.copyFileSync('./css/styles.css', path.join(outputDir, 'css', 'styles.css'));
   fs.copyFileSync('./js/main.js', path.join(outputDir, 'js', 'main.js'));
-  
+
+  // Copy Bootstrap from node_modules (no CDN dependency)
+  fs.copyFileSync(
+    './node_modules/bootstrap/dist/css/bootstrap.min.css',
+    path.join(outputDir, 'css', 'bootstrap.min.css')
+  );
+  fs.copyFileSync(
+    './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+    path.join(outputDir, 'js', 'bootstrap.bundle.min.js')
+  );
+
   console.log('✓ Static assets copied');
   console.log('\n✨ Build complete! Pages created:');
   console.log('   - output/index.html');

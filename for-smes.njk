@@ -1,100 +1,127 @@
 {% extends "_layout.njk" %}
 
 {% block content %}
-    <!-- Hero Section -->
-    <section class="hero">
+
+    <!-- Hero -->
+    <section class="hero-section brand-gradient text-white text-center">
         <div class="container">
-            <h1>{{ page.hero.heading }}</h1>
-            <p>{{ page.hero.description }}</p>
-            <div class="hero-buttons">
-                {% for button in page.hero.buttons %}
-                <a href="{{ button.url }}" class="{{ button.class }}">{{ button.text }}</a>
-                {% endfor %}
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <h1 class="hero-heading fw-bold mb-4">{{ page.hero.heading }}</h1>
+                    <p class="hero-sub mb-5">{{ page.hero.description }}</p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        {% for button in page.hero.buttons %}
+                        <a href="{{ button.url }}" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">{{ button.text }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Problem Section -->
-    <section class="how-it-works">
+    <!-- The Problem -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title">{{ page.problem.title }}</h2>
-            <p class="section-subtitle">{{ page.problem.subtitle }}</p>
-            
-            <div class="steps">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">{{ page.problem.title }}</h2>
+                <p class="section-sub text-muted">{{ page.problem.subtitle }}</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 {% for challenge in page.problem.challenges %}
-                <div class="step">
-                    <div class="step-icon">{{ challenge.icon }}</div>
-                    <h3>{{ challenge.title }}</h3>
-                    <p>{{ challenge.description }}</p>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">{{ challenge.icon }}</div>
+                            <h5 class="fw-semibold mb-3">{{ challenge.title }}</h5>
+                            <p class="text-muted mb-0">{{ challenge.description }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- Solution Section -->
-    <section class="featured-brands">
+    <!-- The Solution -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <h2 class="section-title">{{ page.solution.title }}</h2>
-            <p class="section-subtitle">{{ page.solution.subtitle }}</p>
-            
-            <div class="benefits-grid">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">{{ page.solution.title }}</h2>
+                <p class="section-sub text-muted">{{ page.solution.subtitle }}</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
                 {% for benefit in page.solution.benefits %}
-                <div class="benefit-card">
-                    <div class="benefit-icon">{{ benefit.icon }}</div>
-                    <h3>{{ benefit.title }}</h3>
-                    <p>{{ benefit.description }}</p>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">{{ benefit.icon }}</div>
+                            <h5 class="fw-semibold mb-3">{{ benefit.title }}</h5>
+                            <p class="text-muted mb-0">{{ benefit.description }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- Two Critical Variables -->
-    <section class="how-it-works">
+    <!-- Supply & Demand -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title">{{ page.variables.title }}</h2>
-            <p class="section-subtitle">{{ page.variables.subtitle }}</p>
-            
-            <div class="steps">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">{{ page.variables.title }}</h2>
+                <p class="section-sub text-muted">{{ page.variables.subtitle }}</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
                 {% for variable in page.variables.items %}
-                <div class="step">
-                    <div class="step-icon">{{ variable.number }}</div>
-                    <h3>{{ variable.title }}</h3>
-                    <p>{{ variable.description }}</p>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">{{ variable.number }}</div>
+                            <h5 class="fw-semibold mb-3">{{ variable.title }}</h5>
+                            <p class="text-muted mb-0">{{ variable.description }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- Metrics Section -->
-    <section class="benefits" id="metrics">
+    <!-- The Signals -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <h2 class="section-title">{{ page.metrics.title }}</h2>
-            <p class="section-subtitle">{{ page.metrics.subtitle }}</p>
-            
-            <div class="benefits-grid">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">{{ page.metrics.title }}</h2>
+                <p class="section-sub text-muted">{{ page.metrics.subtitle }}</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 {% for metric in page.metrics.items %}
-                <div class="benefit-card">
-                    <div class="benefit-icon">{{ metric.icon }}</div>
-                    <h3>{{ metric.name }}</h3>
-                    <p>{{ metric.description }}</p>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">{{ metric.icon }}</div>
+                            <h5 class="fw-semibold mb-3">{{ metric.name }}</h5>
+                            <p class="text-muted mb-0">{{ metric.description }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- CTA -->
+    <section class="py-5 brand-gradient text-white text-center">
         <div class="container">
-            <h2>Ready to Build Your Brand?</h2>
-            <p>Access brand-building capital without operational interference or excessive dilution</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">Apply Now</a>
-                <a href="#" class="btn-secondary">Learn More</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-3">The Next Great Content Company Isn't a Studio</h2>
+                    <p class="mb-5 opacity-75">It's the marketplace the studios can't afford to ignore. Vaizen is built, functional, and ready to scale.</p>
+                    <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                </div>
             </div>
         </div>
     </section>
+
 {% endblock %}

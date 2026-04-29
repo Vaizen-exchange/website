@@ -3,305 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Investors - Vaizen</title>
+    <title>For Buyers — Vaizen</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     
 </head>
-<body>
-    <header>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
     <div class="container">
-        <nav>
-            <div class="logo">Vaizen</div>
-            <ul class="nav-links">
-                <li><a href="/for-smes.html">For SMEs</a></li>
-                <li><a href="/for-creators.html">For Creators</a></li>
-                <li><a href="/for-investors.html">For Investors</a></li>
-                <li><a href="/#brands">Browse Brands</a></li>
-                <li><a href="#" class="cta-button">Get Started</a></li>
+        <a class="navbar-brand brand-logo fw-bold" href="/">Vaizen</a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-center gap-1">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-smes.html">The Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-creators.html">For Rights Holders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-investors.html">For Buyers</a>
+                </li>
+                <li class="nav-item ms-2">
+                    <button class="btn btn-brand px-3 py-2" data-bs-toggle="modal" data-bs-target="#contactModal" type="button">Want to Know More?</button>
+                </li>
             </ul>
-        </nav>
+        </div>
     </div>
-</header>
+</nav>
+
 
     
-    
-    <!-- Hero Section -->
-    <section class="hero">
+
+    <!-- Hero -->
+    <section class="hero-section brand-gradient text-white text-center">
         <div class="container">
-            <h1>Invest in Brand Equity, Not Just Businesses</h1>
-            <p>Access a new alternative asset class with fractional ownership, transparent deployment, and lower risk than traditional startup investing. Track performance in real-time.</p>
-            <div class="hero-buttons">
-                
-                <a href="#apply" class="btn-primary">Start Investing</a>
-                
-                <a href="#brands" class="btn-secondary">Browse Brands</a>
-                
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <h1 class="hero-heading fw-bold mb-4">Search. Discover. Acquire.</h1>
+                    <p class="hero-sub mb-5">Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place. Vaizen is launching soon.</p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        
+                        <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Investment Model Section -->
-    <section class="how-it-works">
+    <!-- From Search to Screening -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title">The Fractional Investment Model</h2>
-            <p class="section-subtitle">Replace institutional VCs with retail investors through fractional ownership</p>
-            
-            <div class="steps">
-                
-                <div class="step">
-                    <div class="step-icon">1</div>
-                    <h3>Evaluate Brand Vision</h3>
-                    <p>Review compelling brand visions from founders. Assess the differentiated perception they want to create and founder quality.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">2</div>
-                    <h3>Fractional Investment</h3>
-                    <p>Invest small amounts in brands you believe in. Fractional ownership means diversification across multiple brands instead of going all-in on one.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">3</div>
-                    <h3>Direct Funding</h3>
-                    <p>Your investment flows directly to approved channels and creators who build brand equity. No money goes to operational expenses you can&#39;t track.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">4</div>
-                    <h3>Track Performance</h3>
-                    <p>Monitor brand growth through Share of Voice, Share of Market, and Excess Share of Voice metrics in real-time.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">5</div>
-                    <h3>Own Brand Value</h3>
-                    <p>You own fractional shares of the brand value being created. Similar to crowdfunding, but instead of pre-ordering products, you own brand equity.</p>
-                </div>
-                
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">From Search to Screening in Minutes</h2>
+                <p class="section-sub text-muted">Built for professional acquisition</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section -->
-    <section class="featured-brands">
-        <div class="container">
-            <h2 class="section-title">Benefits for Retail Investors</h2>
-            <p class="section-subtitle">Access previously exclusive investment opportunities with better transparency</p>
-            
-            <div class="benefits-grid">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
                 
-                <div class="benefit-card">
-                    <div class="benefit-icon">💎</div>
-                    <h3>Alternative Asset Class</h3>
-                    <p>Access to brand equity investment previously reserved for VCs. Diversify your portfolio beyond traditional stocks and real estate.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
-                    <h3>Transparent Deployment</h3>
-                    <p>Capital visibly goes to actual brand-building activities. See exactly where your money flows - to channels, creators, and campaigns.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
-                    <h3>Real-Time Tracking</h3>
-                    <p>Track performance through SOV, SOM, and eSOV metrics in real-time. Know if the brand is gaining mindshare and market position.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🛡️</div>
-                    <h3>Lower Risk Profile</h3>
-                    <p>Money goes to established service providers who get paid regardless of business outcome. Lower risk than traditional startup investing.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🔢</div>
-                    <h3>Small Investment Amounts</h3>
-                    <p>Can invest small amounts in brand visions you believe in. Fractional ownership makes brand equity accessible to all.</p>
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h3>Portfolio Diversification</h3>
-                    <p>Diversify across multiple brands instead of single large bets. Spread risk while supporting multiple emerging businesses.</p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Risk Comparison -->
-    <section class="how-it-works" id="risk">
-        <div class="container">
-            <h2 class="section-title">Risk Comparison</h2>
-            <p class="section-subtitle">Why brand investment has a fundamentally different risk profile</p>
-            
-            <div class="steps">
-                
-                <div class="step">
-                    <div class="step-icon">❌</div>
-                    <h3>Traditional VC Model</h3>
-                    <p>If business fails, money is gone - spent on inventory, payroll, rent that generated no return. Capital disappears with the business.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">✅</div>
-                    <h3>Brand Investment Model</h3>
-                    <p>Money flows through established media and marketing channels who get paid for services rendered, regardless of business outcome. Channels receive payment whether brand succeeds or not.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-icon">🔍</div>
-                    <h3>Following the Money</h3>
-                    <p>Brand-building capital doesn&#39;t disappear - it flows to Google for ad spend, production companies for videos, influencers for content, and media outlets for placement. The money goes to established entities.</p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Metrics Tracking -->
-    <section class="benefits">
-        <div class="container">
-            <h2 class="section-title">Track Brand Performance</h2>
-            <p class="section-subtitle">True foresight metrics that predict brand success</p>
-            
-            <div class="benefits-grid">
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📢</div>
-                    <h3>Share of Voice (SOV)</h3>
-                    <p>How much conversation and mental real estate the brand owns in its category. Measures breakthrough and awareness.</p>
-                    
-                    <div style="margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
-                        <strong>Key Insight:</strong> Tells you if the brand is getting noticed in its market
-                    </div>
-                    
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎯</div>
-                    <h3>Share of Market (SOM)</h3>
-                    <p>The brand&#39;s actual current market position. Shows if attention is converting to market share.</p>
-                    
-                    <div style="margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
-                        <strong>Key Insight:</strong> Reveals if awareness is translating to actual business
-                    </div>
-                    
-                </div>
-                
-                <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
-                    <h3>Excess Share of Voice (eSOV)</h3>
-                    <p>The delta between SOV and SOM. Research shows when Share of Voice exceeds Share of Market, it&#39;s a leading indicator of future market share growth.</p>
-                    
-                    <div style="margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea;">
-                        <strong>Key Insight:</strong> Predicts growth - winning mindshare before market share
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- Traditional vs New Model -->
-    <section class="featured-brands">
-        <div class="container">
-            <h2 class="section-title">Traditional VC vs. Vaizen Model</h2>
-            <p class="section-subtitle">Two fundamentally different approaches to funding brand-building</p>
-            
-            <div class="brand-grid">
-                
-                <div class="brand-card">
-                    <div class="brand-header">
-                        <div class="brand-name">Traditional VC</div>
-                    </div>
-                    <div class="brand-body">
-                        <ul style="list-style: none; padding: 0;">
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                VC gives cash to founder
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                Founder deploys with uncertainty
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                Focus on operational efficiency
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                Brand spend seen as &#39;burn&#39;
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                Single large investor controls capital
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                No transparency on brand deployment
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">→</span>
-                                Higher risk if business fails
-                            </li>
-                            
-                        </ul>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">1</div>
+                            <h5 class="fw-semibold mb-3">Set Up Your Profile</h5>
+                            <p class="text-muted mb-0">Register as a Distributor, Platform, Acquisition Executive, or Film Festival. Your verified identity unlocks the platform and direct access to rights holders.</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="brand-card">
-                    <div class="brand-header">
-                        <div class="brand-name">Vaizen Model</div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">2</div>
+                            <h5 class="fw-semibold mb-3">Search the Marketplace</h5>
+                            <p class="text-muted mb-0">Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more. Every result is a title with declared avails.</p>
+                        </div>
                     </div>
-                    <div class="brand-body">
-                        <ul style="list-style: none; padding: 0;">
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Investors pay directly to channels
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Brand equity builds for founder
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Focus on brand vision quality
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Brand spend is strategic investment
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Multiple retail investors fractionally fund
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Full transparency on capital flow
-                            </li>
-                            
-                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #e0e0e0;">
-                                <span style="color: #667eea; margin-right: 0.5rem;">✓</span>
-                                Lower risk - money goes to service providers
-                            </li>
-                            
-                        </ul>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">3</div>
+                            <h5 class="fw-semibold mb-3">Review Declared Avails</h5>
+                            <p class="text-muted mb-0">Each title lists its territory-by-territory licensing availability upfront — AVOD, SVOD, TVOD, Pay TV, Free TV. Know what&#39;s available before the first conversation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">4</div>
+                            <h5 class="fw-semibold mb-3">Request a Screener</h5>
+                            <p class="text-muted mb-0">Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">5</div>
+                            <h5 class="fw-semibold mb-3">Close the Deal</h5>
+                            <p class="text-muted mb-0">Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery — all on platform.</p>
+                        </div>
                     </div>
                 </div>
                 
@@ -309,66 +120,393 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- Built for Professional Acquisition -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <h2>Start Investing in Brand Equity</h2>
-            <p>Access alternative asset class with transparent deployment and trackable metrics</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">Create Account</a>
-                <a href="#" class="btn-secondary">View Opportunities</a>
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">Built for Professional Acquisition</h2>
+                <p class="section-sub text-muted">Everything you need. Nothing you don&#39;t.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🎯</div>
+                            <h5 class="fw-semibold mb-3">Active, Verified Listings</h5>
+                            <p class="text-muted mb-0">Every title on Vaizen has been submitted by a verified rights holder with declared avails. No dead listings. No unanswered screener requests.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🔍</div>
+                            <h5 class="fw-semibold mb-3">Advanced Search</h5>
+                            <p class="text-muted mb-0">Filter across genre, territory, production country, director, cast, festival pedigree, content advisory, and release window simultaneously.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">📋</div>
+                            <h5 class="fw-semibold mb-3">Upfront Avails</h5>
+                            <p class="text-muted mb-0">Territory-by-territory licensing availability declared before the first conversation. AVOD, SVOD, TVOD, Pay TV, Free TV across 50+ countries.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">📁</div>
+                            <h5 class="fw-semibold mb-3">Materials Ready</h5>
+                            <p class="text-muted mb-0">Video screeners, metadata packages, artwork, and legal documents — all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🔒</div>
+                            <h5 class="fw-semibold mb-3">Verified Rights Holders</h5>
+                            <p class="text-muted mb-0">Every seller is identity-verified. You know who you&#39;re dealing with before you pick up the phone. Legitimate rights ownership confirmed at registration.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">⚡</div>
+                            <h5 class="fw-semibold mb-3">Always Available</h5>
+                            <p class="text-muted mb-0">Search and discover at any hour, from any time zone. The marketplace doesn&#39;t have conference hours. Acquisition doesn&#39;t stop because the market ended.</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
 
-    
-    <footer>
+    <!-- Old vs New -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">How Acquisition Used to Work</h2>
+                <p class="section-sub text-muted">And why it needed to change</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">❌</div>
+                            <h5 class="fw-semibold mb-3">The Old Way</h5>
+                            <p class="text-muted mb-0">Sales agents. Market badges. Screener links in email chains. Weeks of back-and-forth to find out if rights are even available for your territory. Expensive, slow, and closed-network.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">✅</div>
+                            <h5 class="fw-semibold mb-3">The Vaizen Way</h5>
+                            <p class="text-muted mb-0">Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🌍</div>
+                            <h5 class="fw-semibold mb-3">The Cinando Problem</h5>
+                            <p class="text-muted mb-0">Cinando and TVSL are dated, expensive, and built around closed networks. Vaizen is open, searchable, and designed for how streaming platforms actually acquire content today.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Dimensions -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">Search Every Dimension That Matters</h2>
+                <p class="section-sub text-muted">Find exactly what your platform or distribution slate needs</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🎬</div>
+                            <h5 class="fw-semibold mb-3">Genre &amp; Format</h5>
+                            <p class="text-muted mb-3">Filter by documentary, drama, thriller, comedy, animation, and more. Feature film, TV series, miniseries, or short — every format supported.</p>
+                            
+                            <div class="insight-chip text-start">Find titles that fit your platform&#39;s content strategy, not just what&#39;s available</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🗺️</div>
+                            <h5 class="fw-semibold mb-3">Territory &amp; Avails</h5>
+                            <p class="text-muted mb-3">Search by licensing window — AVOD, SVOD, TVOD — within specific territories or worldwide. Declared availability means no surprises mid-negotiation.</p>
+                            
+                            <div class="insight-chip text-start">Know what&#39;s licensable before you make first contact</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">🏆</div>
+                            <h5 class="fw-semibold mb-3">Festival Pedigree &amp; Talent</h5>
+                            <p class="text-muted mb-3">Filter by festival (Sundance, TIFF, Cannes, Berlin, and more), director, cast, and country of production. Surface titles that carry the curatorial signal your audience expects.</p>
+                            
+                            <div class="insight-chip text-start">Festival pedigree is a proven acquisition shortcut for quality signal</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditional vs Vaizen -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">Traditional Acquisition vs. Vaizen</h2>
+                <p class="section-sub text-muted">One uses the platform. One uses a phone book.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="fw-semibold mb-3 pb-3 border-bottom">Traditional Process</h5>
+                            <ul class="comparison-list mb-0">
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Attend AFM, Cannes, or MIPCOM
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Receive screener links from sales agents
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Email back and forth to confirm territory availability
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Wait weeks to verify rights ownership
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Negotiate terms through intermediaries
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Discovery dependent on relationships, not search
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">→</span>Access limited to conference schedules and networks
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="fw-semibold mb-3 pb-3 border-bottom">Vaizen</h5>
+                            <ul class="comparison-list mb-0">
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Search structured marketplace 24/7 from anywhere
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Review declared avails before first contact
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Reach verified rights holders directly on platform
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>All materials available on demand
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Discuss terms directly — no middleman overhead
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Advanced filter across every acquisition parameter
+                                </li>
+                                
+                                <li class="py-2 border-bottom text-muted">
+                                    <span class="me-2">✓</span>Global access, always on, no conference required
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 brand-gradient text-white text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-3">Acquisition, Reimagined</h2>
+                    <p class="mb-5 opacity-75">Vaizen is launching soon. Register your interest and be among the first buyers on the platform when we open the doors.</p>
+                    <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="site-footer text-white py-5 mt-auto">
     <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>For Investors</h4>
-                <ul>
-                    <li><a href="#">Browse Brands</a></li>
-                    <li><a href="#">How It Works</a></li>
-                    <li><a href="#">Investment Guide</a></li>
-                    <li><a href="#">Risk Disclosure</a></li>
-                </ul>
+        <div class="row mb-4 pb-4 border-bottom border-secondary border-opacity-25">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+                <div class="fw-bold fs-4 brand-footer-logo mb-2">Vaizen</div>
+                <p class="text-white-50 small mb-0">The global marketplace for film &amp; TV licensing rights. Connecting rights holders directly with buyers worldwide.</p>
             </div>
-            <div class="footer-section">
-                <h4>For Creators</h4>
-                <ul>
-                    <li><a href="#">List Your Brand</a></li>
-                    <li><a href="#">Success Stories</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">Requirements</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Legal</h4>
-                <ul>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Securities Disclosure</a></li>
-                    <li><a href="#">Cookie Policy</a></li>
-                </ul>
+            <div class="col-12 col-md-8">
+                <div class="row g-4">
+                    <div class="col-6 col-sm-4">
+                        <h6 class="footer-heading text-uppercase text-white-50 mb-3">For Buyers</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#contact-modal" class="footer-link">Get in Touch</a></li>
+                            <li class="mb-2"><a href="/for-investors.html" class="footer-link">Search by Territory</a></li>
+                            <li class="mb-2"><a href="/for-investors.html" class="footer-link">Acquisition Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <h6 class="footer-heading text-uppercase text-white-50 mb-3">For Rights Holders</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="/for-creators.html" class="footer-link">List Your Title</a></li>
+                            <li class="mb-2"><a href="/for-creators.html" class="footer-link">Avails Engine</a></li>
+                            <li class="mb-2"><a href="/for-creators.html" class="footer-link">Submission Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <h6 class="footer-heading text-uppercase text-white-50 mb-3">Company</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><a href="#" class="footer-link">About Vaizen</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Vaizen. All rights reserved. Investment involves risk. Please read all disclosures carefully.</p>
-        </div>
+        <p class="text-center text-white-50 small mb-0">&copy; 2026 Vaizen. All rights reserved.</p>
     </div>
 </footer>
 
-    
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+
+                <div class="modal-header border-0 pb-0 px-4 pt-4">
+                    <div>
+                        <h4 class="modal-title fw-semibold mb-1" id="contactModalLabel">Want to Know More?</h4>
+                        <p class="text-muted mb-0 small">Tell us a bit about yourself and we'll be in touch.</p>
+                    </div>
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body px-4 pt-3 pb-2">
+                    <form id="contactForm" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="fullname" class="form-label fw-medium">Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" name="name" placeholder="Your full name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="organisation" class="form-label fw-medium">Organisation <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Company or organisation" required>
+                                <div class="invalid-feedback">Please enter your organisation.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label fw-medium">Email <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label fw-medium">Phone <span class="text-muted fw-normal small">(optional)</span></label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+1 234 567 8900">
+                            </div>
+                            <div class="col-12">
+                                <label for="role" class="form-label fw-medium">I am a <span class="text-danger">*</span></label>
+                                <select class="form-select" id="role" name="type" required>
+                                    <option value="" disabled selected>Select your role</option>
+                                    <option value="filmmaker">Filmmaker</option>
+                                    <option value="producer">Producer</option>
+                                    <option value="sales-agent">Sales Agent</option>
+                                    <option value="distributor">Distributor</option>
+                                    <option value="catalog-owner">Catalog Owner</option>
+                                    <option value="buyer">Buyer / Acquisitions</option>
+                                    <option value="film-festival">Film Festival</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="invalid-feedback">Please select your role.</div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Success state (hidden until submission) -->
+                    <div id="formSuccess" class="text-center py-5 d-none">
+                        <div class="success-circle brand-gradient text-white mx-auto mb-3">&#10003;</div>
+                        <h5 class="fw-semibold mb-2">Thank you — we'll be in touch.</h5>
+                        <p class="text-muted mb-0">We've received your details and will reach out shortly.</p>
+                    </div>
+                </div>
+
+                <div class="modal-footer border-0 px-4 pb-4" id="modalFooter">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-brand px-4" id="contactSubmitBtn">Send</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/main.js"></script>
     
 </body>

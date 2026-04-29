@@ -1,115 +1,105 @@
 {
-  "title": "For SMEs & Founders - Vaizen",
+  "title": "The Platform — Vaizen",
   "siteName": "Vaizen",
-  "currentYear": "2025",
+  "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Build Your Brand Without Compromising Your Business",
-      "description": "Access brand-building capital that flows directly to professional channels while you focus on operations. No operational interference, no excessive dilution.",
+      "heading": "Built for the Way Deals Actually Happen",
+      "description": "Vaizen is a licensing marketplace built for the way deals actually happen. Full submission workflow, multi-territory avails engine, advanced search, and role-based access. Built and running.",
       "buttons": [
         {
-          "text": "Apply Now",
-          "url": "#apply",
+          "text": "Want to Know More?",
+          "url": "#contact-modal",
           "class": "btn-primary"
-        },
-        {
-          "text": "Learn How",
-          "url": "#how-it-works",
-          "class": "btn-secondary"
         }
       ]
     },
     "problem": {
-      "title": "The Funding Challenge",
-      "subtitle": "Traditional venture capital creates a fundamental mismatch with brand-building needs",
+      "title": "How a $230B Market Still Runs on Email",
+      "subtitle": "The infrastructure gap Vaizen was built to close",
       "challenges": [
         {
-          "icon": "⏱️",
-          "title": "Long-Term Investment Needed",
-          "description": "Brand building requires sustained effort over years. Building brand perception, trust, and loyalty takes time and consistent investment."
+          "icon": "🗂️",
+          "title": "Discovery Is Broken",
+          "description": "Rights holders with completed titles have no persistent, searchable layer to reach buyers. Availability lives in spreadsheets and PDFs sent to whoever you met at a market."
         },
         {
-          "icon": "📊",
-          "title": "VCs Want Efficiency",
-          "description": "Traditional venture capital evaluates companies on revenue growth, unit economics, and path to profitability. Heavy brand investment appears as 'burn' that reduces attractiveness."
+          "icon": "📧",
+          "title": "Licensing Lives in Email Chains",
+          "description": "Avails, territories, and rights windows are negotiated through back-and-forth emails. A buyer in Germany shouldn't need three calls to know if European SVOD rights are available."
         },
         {
-          "icon": "⚠️",
-          "title": "Risk Perception Problem",
-          "description": "VCs hesitate to fund pure brand-building because 'what if the business fails?' They see it as money wasted with no returns."
+          "icon": "🏛️",
+          "title": "Markets Are Gatekeepers",
+          "description": "Cannes, AFM, and MIPCOM are expensive, infrequent, and closed-network. The infrastructure connecting indie supply to global demand shouldn't require a hotel room in the South of France."
         }
       ]
     },
     "solution": {
-      "title": "How Vaizen Helps Founders",
-      "subtitle": "A new model that separates brand investment from business operations",
+      "title": "Everything the Market Needed. Nothing It Didn't.",
+      "subtitle": "A full licensing workflow — built and running",
       "benefits": [
         {
-          "icon": "🎯",
-          "title": "Access Brand Capital",
-          "description": "Get brand-building capital without operational interference or excessive dilution to a single VC."
+          "icon": "🎬",
+          "title": "Full Title Submission",
+          "description": "Video, metadata, artwork, documents, and licensing availability in one structured workflow. Structured data from the first click — not a form that ends in a PDF attachment."
         },
         {
-          "icon": "🚀",
-          "title": "Focus on Operations",
-          "description": "Professional brand-building happens on your behalf while you focus on running the business and growing operations."
+          "icon": "🗺️",
+          "title": "Multi-Territory Avails Engine",
+          "description": "Worldwide, include-list, or exclude-list licensing across 50+ countries. AVOD, SVOD, TVOD, Pay TV, and Free TV supported. Territory configuration is granular and real-time."
+        },
+        {
+          "icon": "🔍",
+          "title": "Advanced Search",
+          "description": "Genre, country of production, cast, director, festival pedigree, content advisory, and release window. Every search returns only titles with declared, available rights."
         },
         {
           "icon": "👥",
-          "title": "Community of Advocates",
-          "description": "Multiple small investors become brand champions and advocates, creating a community around your vision."
+          "title": "Role-Based Access",
+          "description": "Filmmaker, Producer, Sales Agent, Distributor, Catalog Owner, Buyer, and Film Festival roles — each with appropriate permissions and workflows tailored to how they actually work."
         },
         {
-          "icon": "📈",
-          "title": "Build Brand Equity",
-          "description": "Brand equity grows through professional campaigns while you maintain control of your brand vision and identity."
-        },
-        {
-          "icon": "🛡️",
-          "title": "Brand as Moat",
-          "description": "Strong brands create sustainable competitive advantages that are difficult for competitors to replicate."
-        },
-        {
-          "icon": "💰",
-          "title": "No Balance Sheet Burn",
-          "description": "Get professional brand-building without cash burn on your balance sheet. Capital flows directly to channels."
+          "icon": "🔒",
+          "title": "Verified Identity Layer",
+          "description": "Every party is verified at registration. Rights holders know who is accessing their screeners. Buyers know they are dealing with legitimate, authenticated rights owners."
         }
       ]
     },
     "variables": {
-      "title": "The Two Critical Variables",
-      "subtitle": "Every new business begins with two fundamental assets that determine success",
+      "title": "Supply and Demand, Finally Connected",
+      "subtitle": "Vaizen closes the gap that has existed since film markets moved online in 2020",
       "items": [
         {
           "number": "1",
-          "title": "The Brand Vision",
-          "description": "Before operations begin, you have a clear concept of what perception you want to create, what values and emotions the brand should evoke, and how you want to be positioned in the market. This vision exists before funding is secured."
+          "title": "The Rights Holders",
+          "description": "40,000+ films are produced globally every year. The majority are independent productions with no distribution infrastructure. They have titles, avails, and materials — they just can't reach buyers efficiently. Vaizen solves that."
         },
         {
           "number": "2",
-          "title": "The Founder",
-          "description": "Strong founders find creative ways to realize the brand vision despite constraints. They might adjust tactics, but they protect the core brand identity. They're resourceful, resilient, and understand that the brand vision is the fundamental value proposition."
+          "title": "The Buyers",
+          "description": "Streaming platforms, broadcasters, and distributors have tripled their acquisition budgets in five years. They need a reliable, searchable source of indie content with declared avails. Vaizen is that source."
         }
       ]
     },
     "metrics": {
-      "title": "Track Real Brand Performance",
-      "subtitle": "Better metrics for brand success that actually predict future performance",
+      "title": "The Signals Are Unmistakable",
+      "subtitle": "Why now is exactly the right moment to build this infrastructure",
       "items": [
         {
-          "icon": "📢",
-          "name": "Share of Voice (SOV)",
-          "description": "How much conversation and mental real estate you own in your category. Measures if you're breaking through."
+          "icon": "💰",
+          "name": "$230B+ Market",
+          "description": "The global content licensing and distribution market. The majority of this value flows through opaque, relationship-dependent channels. Vaizen makes it structural and searchable."
+        },
+        {
+          "icon": "📈",
+          "name": "Streaming Fragmentation",
+          "description": "Dozens of new platforms launched globally since 2020, each competing for indie content. More buyers, same broken discovery infrastructure. The demand has never been greater."
         },
         {
           "icon": "🎯",
-          "name": "Share of Market (SOM)",
-          "description": "Your actual current market position. Measures if you're converting attention into market share."
-        },
-        {
-          "icon": "📊",
-          "name": "Excess Share of Voice (eSOV)",
-          "description": "The delta between SOV and SOM. When your Share of Voice exceeds your Share of Market, it's a leading indicator of future market share growth. You're winning mindshare before market share."
+          "name": "No Neutral Platform",
+          "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills — and it is already built."
         }
       ]
     }

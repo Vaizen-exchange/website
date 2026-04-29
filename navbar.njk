@@ -1,14 +1,26 @@
-<header>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
     <div class="container">
-        <nav>
-            <div class="logo">{{ siteName | default("Vaizen") }}</div>
-            <ul class="nav-links">
-                <li><a href="/for-smes.html">For SMEs</a></li>
-                <li><a href="/for-creators.html">For Creators</a></li>
-                <li><a href="/for-investors.html">For Investors</a></li>
-                <li><a href="/#brands">Browse Brands</a></li>
-                <li><a href="#" class="cta-button">Get Started</a></li>
+        <a class="navbar-brand brand-logo fw-bold" href="/">{{ siteName | default("Vaizen") }}</a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-center gap-1">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-smes.html">The Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-creators.html">For Rights Holders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="/for-investors.html">For Buyers</a>
+                </li>
+                <li class="nav-item ms-2">
+                    <button class="btn btn-brand px-3 py-2" data-bs-toggle="modal" data-bs-target="#contactModal" type="button">Want to Know More?</button>
+                </li>
             </ul>
-        </nav>
+        </div>
     </div>
-</header>
+</nav>

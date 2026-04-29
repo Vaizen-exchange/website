@@ -1,16 +1,19 @@
-<section class="hero">
+<section class="hero-section brand-gradient text-white text-center">
     <div class="container">
-        <h1>{{ hero.heading | default("Invest in the Future of Content Creation") }}</h1>
-        <p>{{ hero.description | default("Back talented creators building the next generation of media brands. Earn returns while supporting innovation.") }}</p>
-        <div class="hero-buttons">
-            {% if hero.buttons %}
-                {% for button in hero.buttons %}
-                    <a href="{{ button.url }}" class="{{ button.class }}">{{ button.text }}</a>
-                {% endfor %}
-            {% else %}
-                <a href="#brands" class="btn-primary">Explore Opportunities</a>
-                <a href="#how-it-works" class="btn-secondary">Learn More</a>
-            {% endif %}
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <h1 class="hero-heading fw-bold mb-4">{{ hero.heading | default("The Global Marketplace for Film & TV Rights") }}</h1>
+                <p class="hero-sub mb-5">{{ hero.description | default("A marketplace connecting rights holders directly with buyers, platforms, and distributors worldwide. Launching soon.") }}</p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    {% if hero.buttons %}
+                        {% for button in hero.buttons %}
+                            <a href="{{ button.url }}" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">{{ button.text }}</a>
+                        {% endfor %}
+                    {% else %}
+                        <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                    {% endif %}
+                </div>
+            </div>
         </div>
     </div>
 </section>

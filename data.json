@@ -1,111 +1,78 @@
 {
-  "title": "Vaizen - Invest in Content Creator Brands",
+  "title": "Vaizen — The Film & TV Licensing Marketplace",
   "siteName": "Vaizen",
-  "currentYear": "2025",
+  "currentYear": "2026",
   "hero": {
-    "heading": "Invest in the Future of Content Creation",
-    "description": "Transforming emerging businesses'  access to capital and retail investors participation in brand equity",
+    "heading": "The Global Marketplace for Film & TV Rights",
+    "description": "A marketplace connecting rights holders directly with buyers, platforms, and distributors worldwide. Launching soon — request early access.",
     "buttons": [
       {
-        "text": "Browse Brands",
-        "url": "#brands",
+        "text": "Want to Know More?",
+        "url": "#contact-modal",
         "class": "btn-primary"
-      },
-      {
-        "text": "Learn More",
-        "url": "#how-it-works",
-        "class": "btn-secondary"
       }
     ]
   },
+  "stats": [
+    {
+      "value": "$230B+",
+      "label": "Global content licensing & distribution market"
+    },
+    {
+      "value": "200+",
+      "label": "Active streaming platforms competing for content"
+    },
+    {
+      "value": "$17B",
+      "label": "Netflix content spend in 2023 alone"
+    },
+    {
+      "value": "12,000+",
+      "label": "Industry professionals at Cannes Marché annually"
+    }
+  ],
   "steps": [
     {
       "number": "1",
-      "title": "Discover Brands",
-      "description": "Browse through curated content creator brands across various niches. Review metrics, audience demographics, and growth potential."
+      "title": "Onboard Your Title",
+      "description": "Upload video, metadata, artwork, and documents. Define your territory-by-territory avails across AVOD, SVOD, TVOD, Pay TV, and Free TV — all in one workflow."
     },
     {
       "number": "2",
-      "title": "Analyze & Invest",
-      "description": "Review detailed analytics, revenue streams, and business models. Make informed investment decisions with transparent data."
+      "title": "Buyers Discover You",
+      "description": "Platforms and distributors search by genre, territory, festival pedigree, cast, director, and more. Your title surfaces to the right buyers — no cold calls required."
     },
     {
       "number": "3",
-      "title": "Earn Returns",
-      "description": "Receive returns based on brand performance, revenue growth, and equity appreciation. Track your portfolio in real-time."
-    }
-  ],
-  "brands": [
-    {
-      "avatar": "🎮",
-      "name": "GameMaster Pro",
-      "category": "Gaming & Entertainment",
-      "followers": "2.4M",
-      "monthlyViews": "8.5M",
-      "description": "Leading gaming content creator with multiple revenue streams including sponsorships, merchandise, and subscription services.",
-      "seeking": "$500,000",
-      "minInvestment": "$5,000",
-      "equityOffered": "20%",
-      "fundedPercentage": 68,
-      "daysLeft": 15
-    },
-    {
-      "avatar": "🍳",
-      "name": "Chef's Table",
-      "category": "Food & Lifestyle",
-      "followers": "1.8M",
-      "monthlyViews": "12M",
-      "description": "Premium cooking content with cookbook deals, kitchenware line, and partnerships with major food brands.",
-      "seeking": "$350,000",
-      "minInvestment": "$2,500",
-      "equityOffered": "15%",
-      "fundedPercentage": 43,
-      "daysLeft": 22
-    },
-    {
-      "avatar": "💪",
-      "name": "FitLife Academy",
-      "category": "Health & Fitness",
-      "followers": "3.2M",
-      "monthlyViews": "15M",
-      "description": "Fitness empire with workout programs, nutrition plans, apparel line, and app subscription service.",
-      "seeking": "$750,000",
-      "minInvestment": "$10,000",
-      "equityOffered": "25%",
-      "fundedPercentage": 85,
-      "daysLeft": 8
+      "title": "Deals Get Done",
+      "description": "Rights holders and buyers connect directly on the platform. No sales agents. No market badges. No email chains. Deals start in minutes, not months."
     }
   ],
   "benefits": [
     {
-      "icon": "📈",
-      "title": "High Growth Potential",
-      "description": "Content creator economy is growing exponentially with massive opportunities for early investors."
-    },
-    {
-      "icon": "🎯",
-      "title": "Diversify Portfolio",
-      "description": "Add alternative assets to your portfolio beyond traditional stocks and real estate."
+      "icon": "🌍",
+      "title": "Direct Access, Global Reach",
+      "description": "Rights holders reach buyers in 50+ countries without a sales agent or market badge. Buyers reach verified rights holders without a conference pass."
     },
     {
       "icon": "🔍",
-      "title": "Transparent Metrics",
-      "description": "Access real-time analytics, revenue data, and performance metrics for informed decisions."
+      "title": "Structured Discovery",
+      "description": "Buyers filter by genre, territory, festival pedigree, cast, director, and release window. Structured data, not a static PDF or an email chain."
     },
     {
-      "icon": "💎",
-      "title": "Direct Ownership",
-      "description": "Own actual equity in creator brands and participate in their success journey."
+      "icon": "📋",
+      "title": "Avails Engine",
+      "description": "Multi-territory licensing availability declared upfront. Buyers know what's available before the first conversation — by window, by territory."
     },
     {
-      "icon": "🤝",
-      "title": "Support Innovation",
-      "description": "Help talented creators scale their businesses and bring new ideas to life."
+      "icon": "🔒",
+      "title": "Verified Identities",
+      "description": "Every rights holder and buyer is identity-verified. Screeners reach verified acquisition professionals, not anonymous inboxes."
     },
     {
-      "icon": "💰",
-      "title": "Multiple Revenue Streams",
-      "description": "Benefit from diverse income sources including ads, sponsorships, products, and subscriptions."
+      "icon": "⚡",
+      "title": "Always On",
+      "description": "The marketplace never sleeps. Unlike Cannes or AFM, deals can start at 2am on a Tuesday — from anywhere in the world."
     }
   ]
 }

@@ -1,121 +1,121 @@
 {
-  "title": "For Content Creators - Vaizen",
+  "title": "For Rights Holders — Vaizen",
   "siteName": "Vaizen",
-  "currentYear": "2025",
+  "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Turn Your Credibility Into Brand Equity",
-      "description": "Access funded campaigns with guaranteed payment. Work with emerging brands while transferring your trust and conviction to help them build market presence.",
+      "heading": "Your Titles. Global Reach. No Gatekeepers.",
+      "description": "Onboard your film or TV title once. Define your avails territory by territory. Reach distributors and platforms in 50+ countries — without a sales agent, a market badge, or weeks of back-and-forth.",
       "buttons": [
         {
-          "text": "Join Network",
-          "url": "#apply",
+          "text": "Want to Know More?",
+          "url": "#contact-modal",
           "class": "btn-primary"
-        },
-        {
-          "text": "View Campaigns",
-          "url": "#opportunities",
-          "class": "btn-secondary"
         }
       ]
     },
     "valueTransfer": {
-      "title": "The Value Transfer Mechanism",
-      "subtitle": "Your credibility becomes their brand equity",
+      "title": "From Submission to Discovery — All on Platform",
+      "subtitle": "Take control of your title's licensing journey",
       "steps": [
         {
-          "icon": "🎭",
-          "title": "Your Brand Equity",
-          "description": "You've spent years building your personal brand through your content platforms. Your audiences trust you, listen to you, and value your opinions. This trust is your brand equity."
+          "icon": "🎬",
+          "title": "Onboard Your Title",
+          "description": "Upload your video screener, metadata, artwork, cast & crew, and supporting documents. All in one structured workflow, all in minutes. Your title enters the marketplace immediately."
         },
         {
-          "icon": "🤝",
-          "title": "Credibility Transfer",
-          "description": "When you collaborate with a founder's brand, you're not just creating content. You're transferring some of your credibility to them. Your conviction becomes part of their brand story."
+          "icon": "🗺️",
+          "title": "Set Your Avails",
+          "description": "Define licensing availability territory by territory across AVOD, SVOD, TVOD, Pay TV, and Free TV. Choose worldwide, include-list, or exclude-list for each window. Full control, always."
         },
         {
-          "icon": "📈",
-          "title": "Brand Equity Growth",
-          "description": "Money flowing to you translates directly into brand equity growth for the founder. It's not just about creating content - it's about transferring trust and audience conviction."
+          "icon": "📣",
+          "title": "Go Live and Get Found",
+          "description": "Your title surfaces in buyer searches the moment you publish. Buyers filtering by genre, director, festival, or territory find you directly — no intermediary required."
         }
       ]
     },
     "benefits": {
-      "title": "Benefits for Content Creators",
-      "subtitle": "A stable revenue stream with guaranteed payment",
+      "title": "Built for Rights Holders",
+      "subtitle": "Every feature designed around how you actually work",
       "items": [
         {
-          "icon": "💵",
-          "title": "Guaranteed Payment",
-          "description": "Direct payment from investment pool ensures you get paid for your work, regardless of business outcome."
+          "icon": "🌍",
+          "title": "Global Buyer Network",
+          "description": "Reach acquisition executives at streaming platforms, broadcasters, and distributors across 50+ countries. No conference pass required."
+        },
+        {
+          "icon": "📋",
+          "title": "Avails Engine",
+          "description": "Multi-territory rights management across 50+ countries. Worldwide, include-list, and exclude-list supported. Configure each licensing window independently."
+        },
+        {
+          "icon": "🔍",
+          "title": "Searchable Metadata",
+          "description": "Your title surfaces when buyers search by genre, director, cast, festival, country of production, or release window. Structured data, not a static PDF."
+        },
+        {
+          "icon": "📁",
+          "title": "One Place for Everything",
+          "description": "Video, metadata, artwork, documents, and licensing terms — all organized and accessible to qualified buyers on demand. No more scattered screener links."
+        },
+        {
+          "icon": "🔒",
+          "title": "Verified Buyers Only",
+          "description": "Every buyer on the platform is identity-verified. Your screener reaches verified acquisition professionals, not anonymous inboxes."
         },
         {
           "icon": "📊",
-          "title": "Stable Revenue Stream",
-          "description": "More funded campaigns flowing into the ecosystem means predictable, recurring revenue for your creative work."
-        },
-        {
-          "icon": "🌟",
-          "title": "More Opportunities",
-          "description": "Work with more emerging brands that have actual budgets. Access campaigns you wouldn't normally have access to."
-        },
-        {
-          "icon": "🎨",
-          "title": "Creative Freedom",
-          "description": "Collaborate across multiple platforms and channels. Partner with other creators to amplify reach and create compelling campaigns."
-        },
-        {
-          "icon": "🚀",
-          "title": "Early Brand Access",
-          "description": "Get in early with promising brands. Build relationships with founders and participate in their growth journey."
-        },
-        {
-          "icon": "🤝",
-          "title": "Trusted Partnerships",
-          "description": "Work with brands that align with your values and audience. Your reputation stays intact while helping others grow."
+          "title": "Real-Time Visibility",
+          "description": "See which buyers viewed your title, which territories they searched, and how your listing performs. Actionable intelligence, not silence."
         }
       ]
     },
     "howItWorks": {
-      "title": "How It Works",
-      "subtitle": "Simple process from campaign to payment",
+      "title": "Submit in Four Steps",
+      "subtitle": "From sign-up to live listing in minutes",
       "steps": [
         {
           "number": "1",
-          "title": "Browse Campaigns",
-          "description": "Review available brand campaigns that match your audience and expertise. Choose brands you genuinely believe in."
+          "title": "Create Your Profile",
+          "description": "Register as a Filmmaker, Producer, Sales Agent, or Catalog Owner. Identity verification ensures only legitimate rights holders access the submission system."
         },
         {
           "number": "2",
-          "title": "Create Content",
-          "description": "Develop content across multiple platforms and channels. Collaborate with other creators to amplify reach and impact."
+          "title": "Submit Your Title",
+          "description": "Complete the submission workflow: video screener, metadata, artwork, documents. Our structured form ensures buyers get everything they need to make a decision."
         },
         {
           "number": "3",
-          "title": "Get Paid Directly",
-          "description": "Receive guaranteed payment directly from the investment pool. No chasing invoices or waiting for brand success."
+          "title": "Configure Your Avails",
+          "description": "Set territory-by-territory licensing windows. AVOD, SVOD, TVOD, Pay TV, Free TV. Worldwide or custom territory lists. Update in real time as deals close."
+        },
+        {
+          "number": "4",
+          "title": "Publish and Get Discovered",
+          "description": "Go live in the marketplace. Buyers searching by genre, territory, or festival pedigree find your title immediately. You stay in control of visibility at every step."
         }
       ]
     },
     "credibility": {
-      "title": "Why Your Credibility Matters",
-      "subtitle": "Content creators are valued for the conviction and trust they command",
+      "title": "The Market Has Changed. The Infrastructure Hadn't.",
+      "subtitle": "Until now",
       "points": [
         {
-          "title": "Trust Is Your Asset",
-          "description": "Your audiences trust your judgment and recommendations. When you align with a brand vision, that trust transfers to help the founder build perception and reputation."
+          "title": "The Old Way Was Broken",
+          "description": "Sales agent agreements, market badges, screener links in email chains. Expensive, slow, and dependent on who you know. Vaizen replaces the middleman with a structured, searchable marketplace."
         },
         {
-          "title": "Multi-Platform Impact",
-          "description": "You're not limited to promoting only on your own channel. Create content across multiple platforms, collaborate with other creators, and participate in cross-platform campaigns."
+          "title": "Your Titles, Always Working",
+          "description": "The Vaizen marketplace operates 24/7. Buyers in Frankfurt, Singapore, or São Paulo can discover your title while you sleep. No conference schedule. No market hours."
         },
         {
-          "title": "Real Brand Building",
-          "description": "When a trusted creator with an engaged audience partners with an emerging brand, audiences begin to associate that trust with the new brand. This is how credibility transfer works."
+          "title": "You Stay In Control",
+          "description": "Define what's visible, to whom, and under what terms. Restrict screener access. Set licensing windows. Update availability in real time as deals close. The platform serves you."
         },
         {
-          "title": "Beyond Just Content",
-          "description": "You're valued not for the specific platform you're on, but for the conviction and trust you command with audiences because of your established brand."
+          "title": "Designed for Indie Scale",
+          "description": "Whether you have one title or a library of 500, the submission workflow, avails engine, and buyer access scale with your operation. No minimum slate size required."
         }
       ]
     }

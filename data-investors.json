@@ -1,164 +1,159 @@
 {
-  "title": "For Investors - Vaizen",
+  "title": "For Buyers — Vaizen",
   "siteName": "Vaizen",
-  "currentYear": "2025",
+  "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Invest in Brand Equity, Not Just Businesses",
-      "description": "Access a new alternative asset class with fractional ownership, transparent deployment, and lower risk than traditional startup investing. Track performance in real-time.",
+      "heading": "Search. Discover. Acquire.",
+      "description": "Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place. Vaizen is launching soon.",
       "buttons": [
         {
-          "text": "Start Investing",
-          "url": "#apply",
+          "text": "Want to Know More?",
+          "url": "#contact-modal",
           "class": "btn-primary"
-        },
-        {
-          "text": "Browse Brands",
-          "url": "#brands",
-          "class": "btn-secondary"
         }
       ]
     },
     "model": {
-      "title": "The Fractional Investment Model",
-      "subtitle": "Replace institutional VCs with retail investors through fractional ownership",
+      "title": "From Search to Screening in Minutes",
+      "subtitle": "Built for professional acquisition",
       "steps": [
         {
           "number": "1",
-          "title": "Evaluate Brand Vision",
-          "description": "Review compelling brand visions from founders. Assess the differentiated perception they want to create and founder quality."
+          "title": "Set Up Your Profile",
+          "description": "Register as a Distributor, Platform, Acquisition Executive, or Film Festival. Your verified identity unlocks the platform and direct access to rights holders."
         },
         {
           "number": "2",
-          "title": "Fractional Investment",
-          "description": "Invest small amounts in brands you believe in. Fractional ownership means diversification across multiple brands instead of going all-in on one."
+          "title": "Search the Marketplace",
+          "description": "Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more. Every result is a title with declared avails."
         },
         {
           "number": "3",
-          "title": "Direct Funding",
-          "description": "Your investment flows directly to approved channels and creators who build brand equity. No money goes to operational expenses you can't track."
+          "title": "Review Declared Avails",
+          "description": "Each title lists its territory-by-territory licensing availability upfront — AVOD, SVOD, TVOD, Pay TV, Free TV. Know what's available before the first conversation."
         },
         {
           "number": "4",
-          "title": "Track Performance",
-          "description": "Monitor brand growth through Share of Voice, Share of Market, and Excess Share of Voice metrics in real-time."
+          "title": "Request a Screener",
+          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place."
         },
         {
           "number": "5",
-          "title": "Own Brand Value",
-          "description": "You own fractional shares of the brand value being created. Similar to crowdfunding, but instead of pre-ordering products, you own brand equity."
+          "title": "Close the Deal",
+          "description": "Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery — all on platform."
         }
       ]
     },
     "benefits": {
-      "title": "Benefits for Retail Investors",
-      "subtitle": "Access previously exclusive investment opportunities with better transparency",
+      "title": "Built for Professional Acquisition",
+      "subtitle": "Everything you need. Nothing you don't.",
       "items": [
         {
-          "icon": "💎",
-          "title": "Alternative Asset Class",
-          "description": "Access to brand equity investment previously reserved for VCs. Diversify your portfolio beyond traditional stocks and real estate."
-        },
-        {
-          "icon": "📊",
-          "title": "Transparent Deployment",
-          "description": "Capital visibly goes to actual brand-building activities. See exactly where your money flows - to channels, creators, and campaigns."
-        },
-        {
-          "icon": "📈",
-          "title": "Real-Time Tracking",
-          "description": "Track performance through SOV, SOM, and eSOV metrics in real-time. Know if the brand is gaining mindshare and market position."
-        },
-        {
-          "icon": "🛡️",
-          "title": "Lower Risk Profile",
-          "description": "Money goes to established service providers who get paid regardless of business outcome. Lower risk than traditional startup investing."
-        },
-        {
-          "icon": "🔢",
-          "title": "Small Investment Amounts",
-          "description": "Can invest small amounts in brand visions you believe in. Fractional ownership makes brand equity accessible to all."
-        },
-        {
           "icon": "🎯",
-          "title": "Portfolio Diversification",
-          "description": "Diversify across multiple brands instead of single large bets. Spread risk while supporting multiple emerging businesses."
+          "title": "Active, Verified Listings",
+          "description": "Every title on Vaizen has been submitted by a verified rights holder with declared avails. No dead listings. No unanswered screener requests."
+        },
+        {
+          "icon": "🔍",
+          "title": "Advanced Search",
+          "description": "Filter across genre, territory, production country, director, cast, festival pedigree, content advisory, and release window simultaneously."
+        },
+        {
+          "icon": "📋",
+          "title": "Upfront Avails",
+          "description": "Territory-by-territory licensing availability declared before the first conversation. AVOD, SVOD, TVOD, Pay TV, Free TV across 50+ countries."
+        },
+        {
+          "icon": "📁",
+          "title": "Materials Ready",
+          "description": "Video screeners, metadata packages, artwork, and legal documents — all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed."
+        },
+        {
+          "icon": "🔒",
+          "title": "Verified Rights Holders",
+          "description": "Every seller is identity-verified. You know who you're dealing with before you pick up the phone. Legitimate rights ownership confirmed at registration."
+        },
+        {
+          "icon": "⚡",
+          "title": "Always Available",
+          "description": "Search and discover at any hour, from any time zone. The marketplace doesn't have conference hours. Acquisition doesn't stop because the market ended."
         }
       ]
     },
     "risk": {
-      "title": "Risk Comparison",
-      "subtitle": "Why brand investment has a fundamentally different risk profile",
+      "title": "How Acquisition Used to Work",
+      "subtitle": "And why it needed to change",
       "comparisons": [
         {
           "icon": "❌",
-          "title": "Traditional VC Model",
-          "description": "If business fails, money is gone - spent on inventory, payroll, rent that generated no return. Capital disappears with the business."
+          "title": "The Old Way",
+          "description": "Sales agents. Market badges. Screener links in email chains. Weeks of back-and-forth to find out if rights are even available for your territory. Expensive, slow, and closed-network."
         },
         {
           "icon": "✅",
-          "title": "Brand Investment Model",
-          "description": "Money flows through established media and marketing channels who get paid for services rendered, regardless of business outcome. Channels receive payment whether brand succeeds or not."
+          "title": "The Vaizen Way",
+          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones."
         },
         {
-          "icon": "🔍",
-          "title": "Following the Money",
-          "description": "Brand-building capital doesn't disappear - it flows to Google for ad spend, production companies for videos, influencers for content, and media outlets for placement. The money goes to established entities."
+          "icon": "🌍",
+          "title": "The Cinando Problem",
+          "description": "Cinando and TVSL are dated, expensive, and built around closed networks. Vaizen is open, searchable, and designed for how streaming platforms actually acquire content today."
         }
       ]
     },
     "metrics": {
-      "title": "Track Brand Performance",
-      "subtitle": "True foresight metrics that predict brand success",
+      "title": "Search Every Dimension That Matters",
+      "subtitle": "Find exactly what your platform or distribution slate needs",
       "items": [
         {
-          "icon": "📢",
-          "name": "Share of Voice (SOV)",
-          "description": "How much conversation and mental real estate the brand owns in its category. Measures breakthrough and awareness.",
-          "insight": "Tells you if the brand is getting noticed in its market"
+          "icon": "🎬",
+          "name": "Genre & Format",
+          "description": "Filter by documentary, drama, thriller, comedy, animation, and more. Feature film, TV series, miniseries, or short — every format supported.",
+          "insight": "Find titles that fit your platform's content strategy, not just what's available"
         },
         {
-          "icon": "🎯",
-          "name": "Share of Market (SOM)",
-          "description": "The brand's actual current market position. Shows if attention is converting to market share.",
-          "insight": "Reveals if awareness is translating to actual business"
+          "icon": "🗺️",
+          "name": "Territory & Avails",
+          "description": "Search by licensing window — AVOD, SVOD, TVOD — within specific territories or worldwide. Declared availability means no surprises mid-negotiation.",
+          "insight": "Know what's licensable before you make first contact"
         },
         {
-          "icon": "📊",
-          "name": "Excess Share of Voice (eSOV)",
-          "description": "The delta between SOV and SOM. Research shows when Share of Voice exceeds Share of Market, it's a leading indicator of future market share growth.",
-          "insight": "Predicts growth - winning mindshare before market share"
+          "icon": "🏆",
+          "name": "Festival Pedigree & Talent",
+          "description": "Filter by festival (Sundance, TIFF, Cannes, Berlin, and more), director, cast, and country of production. Surface titles that carry the curatorial signal your audience expects.",
+          "insight": "Festival pedigree is a proven acquisition shortcut for quality signal"
         }
       ]
     },
     "comparison": {
-      "title": "Traditional VC vs. Vaizen Model",
-      "subtitle": "Two fundamentally different approaches to funding brand-building",
+      "title": "Traditional Acquisition vs. Vaizen",
+      "subtitle": "One uses the platform. One uses a phone book.",
       "models": [
         {
-          "name": "Traditional VC",
+          "name": "Traditional Process",
           "icon": "→",
           "points": [
-            "VC gives cash to founder",
-            "Founder deploys with uncertainty",
-            "Focus on operational efficiency",
-            "Brand spend seen as 'burn'",
-            "Single large investor controls capital",
-            "No transparency on brand deployment",
-            "Higher risk if business fails"
+            "Attend AFM, Cannes, or MIPCOM",
+            "Receive screener links from sales agents",
+            "Email back and forth to confirm territory availability",
+            "Wait weeks to verify rights ownership",
+            "Negotiate terms through intermediaries",
+            "Discovery dependent on relationships, not search",
+            "Access limited to conference schedules and networks"
           ]
         },
         {
-          "name": "Vaizen Model",
+          "name": "Vaizen",
           "icon": "✓",
           "points": [
-            "Investors pay directly to channels",
-            "Brand equity builds for founder",
-            "Focus on brand vision quality",
-            "Brand spend is strategic investment",
-            "Multiple retail investors fractionally fund",
-            "Full transparency on capital flow",
-            "Lower risk - money goes to service providers"
+            "Search structured marketplace 24/7 from anywhere",
+            "Review declared avails before first contact",
+            "Reach verified rights holders directly on platform",
+            "All materials available on demand",
+            "Discuss terms directly — no middleman overhead",
+            "Advanced filter across every acquisition parameter",
+            "Global access, always on, no conference required"
           ]
         }
       ]

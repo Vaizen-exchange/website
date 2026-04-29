@@ -1,16 +1,19 @@
 {% extends "_layout.njk" %}
 
 {% block content %}
+
     {% include "hero.njk" %}
 
-    <!-- Stats Section -->
-    <section class="stats">
+    <!-- Stats -->
+    <section class="py-5 bg-white border-bottom">
         <div class="container">
-            <div class="stats-grid">
+            <div class="row g-0 text-center">
                 {% for stat in stats %}
-                <div class="stat-item">
-                    <h3>{{ stat.value }}</h3>
-                    <p>{{ stat.label }}</p>
+                <div class="col-6 col-md-3 stat-item">
+                    <div class="px-3 py-2">
+                        <div class="stat-value fw-bold mb-1">{{ stat.value }}</div>
+                        <div class="text-muted small">{{ stat.label }}</div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -18,68 +21,21 @@
     </section>
 
     <!-- How It Works -->
-    <section class="how-it-works" id="how-it-works">
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="section-title">How It Works</h2>
-            <p class="section-subtitle">Three simple steps to start investing in creator brands</p>
-            
-            <div class="steps">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">How It Works</h2>
+                <p class="section-sub text-muted">Three simple steps to list your title or discover content</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 {% for step in steps %}
-                <div class="step">
-                    <div class="step-icon">{{ step.number }}</div>
-                    <h3>{{ step.title }}</h3>
-                    <p>{{ step.description }}</p>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Brands -->
-    <section class="featured-brands" id="brands">
-        <div class="container">
-            <h2 class="section-title">Featured Creator Brands</h2>
-            <p class="section-subtitle">Invest in high-potential content creators across multiple platforms</p>
-            
-            <div class="brand-grid">
-                {% for brand in brands %}
-                <div class="brand-card">
-                    <div class="brand-header">
-                        <div class="brand-avatar">{{ brand.avatar }}</div>
-                        <div class="brand-name">{{ brand.name }}</div>
-                        <div class="brand-category">{{ brand.category }}</div>
-                    </div>
-                    <div class="brand-body">
-                        <div class="brand-stats">
-                            <div class="stat">
-                                <div class="stat-value">{{ brand.followers }}</div>
-                                <div class="stat-label">Followers</div>
-                            </div>
-                            <div class="stat">
-                                <div class="stat-value">{{ brand.monthlyViews }}</div>
-                                <div class="stat-label">Monthly Views</div>
-                            </div>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="step-badge brand-gradient text-white mx-auto mb-4">{{ step.number }}</div>
+                            <h5 class="fw-semibold mb-3">{{ step.title }}</h5>
+                            <p class="text-muted mb-0">{{ step.description }}</p>
                         </div>
-                        <p class="brand-description">{{ brand.description }}</p>
-                        <div class="investment-info">
-                            <div class="investment-row">
-                                <span class="investment-label">Seeking:</span>
-                                <span class="investment-value">{{ brand.seeking }}</span>
-                            </div>
-                            <div class="investment-row">
-                                <span class="investment-label">Min. Investment:</span>
-                                <span class="investment-value">{{ brand.minInvestment }}</span>
-                            </div>
-                            <div class="investment-row">
-                                <span class="investment-label">Equity Offered:</span>
-                                <span class="investment-value">{{ brand.equityOffered }}</span>
-                            </div>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: {{ brand.fundedPercentage }}%;"></div>
-                        </div>
-                        <p style="text-align: center; margin-bottom: 1rem; color: #666; font-size: 0.9rem;">{{ brand.fundedPercentage }}% funded • {{ brand.daysLeft }} days left</p>
-                        <button class="invest-button">Invest Now</button>
                     </div>
                 </div>
                 {% endfor %}
@@ -87,33 +43,40 @@
         </div>
     </section>
 
-    <!-- Benefits -->
-    <section class="benefits" id="benefits">
+    <!-- Why Vaizen -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <h2 class="section-title">Why Invest in Creator Brands?</h2>
-            <p class="section-subtitle">The future of media is creator-owned and investor-backed</p>
-            
-            <div class="benefits-grid">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">Why Vaizen?</h2>
+                <p class="section-sub text-muted">The infrastructure connecting indie rights to global buyers</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
                 {% for benefit in benefits %}
-                <div class="benefit-card">
-                    <div class="benefit-icon">{{ benefit.icon }}</div>
-                    <h3>{{ benefit.title }}</h3>
-                    <p>{{ benefit.description }}</p>
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">{{ benefit.icon }}</div>
+                            <h5 class="fw-semibold mb-3">{{ benefit.title }}</h5>
+                            <p class="text-muted mb-0">{{ benefit.description }}</p>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- CTA -->
+    <section class="py-5 brand-gradient text-white text-center">
         <div class="container">
-            <h2>Ready to Start Investing?</h2>
-            <p>Join thousands of investors backing the next generation of media entrepreneurs</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn-primary">Create Account</a>
-                <a href="#" class="btn-secondary">List Your Brand</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-3">The Infrastructure the Industry Has Been Waiting For</h2>
+                    <p class="mb-5 opacity-75">Streaming budgets have tripled. The supply is there. The infrastructure connecting indie rights to global buyers hasn't caught up — until now. Vaizen is launching soon.</p>
+                    <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                </div>
             </div>
         </div>
     </section>
+
 {% endblock %}
