@@ -78,6 +78,11 @@ try {
     path.join(outputDir, 'js', 'bootstrap.bundle.min.js')
   );
 
+  // Copy CNAME for GitHub Pages custom domain
+  if (fs.existsSync('./CNAME')) {
+    fs.copyFileSync('./CNAME', path.join(outputDir, 'CNAME'));
+  }
+
   console.log('✓ Static assets copied');
   console.log('\n✨ Build complete! Pages created:');
   console.log('   - output/index.html');
