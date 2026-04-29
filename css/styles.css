@@ -44,6 +44,19 @@
     border: none;
 }
 
+/* Outline brand button */
+.btn-outline-brand {
+    background: transparent;
+    color: var(--brand-start);
+    border: 1.5px solid var(--brand-start);
+    font-weight: 500;
+}
+.btn-outline-brand:hover, .btn-outline-brand:focus {
+    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
+    color: #fff;
+    border-color: transparent;
+}
+
 /* Contained white button on gradient sections */
 .btn-light.brand-cta-btn {
     color: var(--brand-start);
