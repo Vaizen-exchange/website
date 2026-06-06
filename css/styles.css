@@ -1,96 +1,247 @@
-/* ─── Bootstrap 5 brand overrides ─────────────────────────────── */
+/* ─── Google Fonts: Inter ───────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+/* ─── CSS Variables ─────────────────────────────────────────────── */
 :root {
-    --bs-primary: #667eea;
-    --bs-primary-rgb: 102, 126, 234;
-    --brand-start: #667eea;
-    --brand-end: #764ba2;
+    --primary:        #E50914;
+    --primary-dark:   #B20710;
+    --primary-light:  #FF4D58;
+
+    --bg-default:     #111111;
+    --bg-paper:       #242424;
+    --bg-menu:        #2A2A2A;
+    --bg-table-head:  #212121;
+
+    --text-primary:   #FFFFFF;
+    --text-secondary: #B3B3B3;
+    --text-disabled:  #6B6B6B;
+
+    --divider:        rgba(255,255,255,0.10);
+    --border-card:    rgba(255,255,255,0.08);
+    --border-input:   rgba(255,255,255,0.20);
+    --border-hover:   rgba(255,255,255,0.40);
+
+    --radius:         6px;
+    --radius-btn:     4px;
+
+    /* Bootstrap overrides */
+    --bs-primary:     #E50914;
+    --bs-primary-rgb: 229, 9, 20;
+    --bs-body-bg:     #141414;
+    --bs-body-color:  #FFFFFF;
+    --bs-font-sans-serif: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --bs-border-radius: 6px;
 }
 
-/* Brand gradient utility */
-.brand-gradient {
-    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%) !important;
+/* ─── Base ──────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--bs-font-sans-serif);
+    background-color: var(--bg-default);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
 }
 
-.brand-text { color: var(--brand-start) !important; }
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #3A3A3A; border-radius: 4px; }
 
-/* ─── Navbar ─────────────────────────────────────────────────── */
-.navbar { padding-top: 1rem; padding-bottom: 1rem; }
+/* ─── Typography ────────────────────────────────────────────────── */
+h1 { font-weight: 800; letter-spacing: -1.5px; }
+h2 { font-weight: 800; letter-spacing: -1.0px; }
+h3 { font-weight: 700; letter-spacing: -0.5px; }
+h4 { font-weight: 700; letter-spacing: -0.5px; }
+h5 { font-weight: 700; letter-spacing: -0.3px; }
+h6 { font-weight: 600; }
+
+.btn { font-weight: 600; text-transform: none; letter-spacing: 0; }
+
+/* ─── Navbar ────────────────────────────────────────────────────── */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--bg-paper) !important;
+    border-bottom: 1px solid var(--divider);
+    box-shadow: none !important;
+}
 
 .brand-logo {
     font-size: 1.5rem;
-    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    font-weight: 800;
+    color: var(--primary) !important;
+    -webkit-text-fill-color: var(--primary);
+    background: none;
+    letter-spacing: -0.5px;
 }
 
 .navbar-nav .nav-link {
-    color: rgba(0,0,0,0.65);
+    color: var(--text-secondary);
     font-weight: 500;
 }
-.navbar-nav .nav-link:hover { color: var(--brand-start); }
+.navbar-nav .nav-link:hover { color: var(--text-primary); }
 
-/* Primary brand button */
+.navbar-toggler { border-color: var(--border-input); }
+.navbar-toggler-icon { filter: invert(1); }
+
+/* ─── Buttons ───────────────────────────────────────────────────── */
 .btn-brand {
-    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
+    background: var(--primary);
     color: #fff;
     border: none;
-    font-weight: 500;
+    border-radius: var(--radius-btn);
+    font-weight: 600;
+    box-shadow: none;
 }
 .btn-brand:hover, .btn-brand:focus {
-    background: linear-gradient(135deg, #5a6fd8 0%, #6a3f92 100%);
+    background: var(--primary-dark);
     color: #fff;
     border: none;
+    box-shadow: none;
 }
 
-/* Outline brand button */
 .btn-outline-brand {
     background: transparent;
-    color: var(--brand-start);
-    border: 1.5px solid var(--brand-start);
-    font-weight: 500;
+    color: var(--primary);
+    border: 1.5px solid var(--primary);
+    border-radius: var(--radius-btn);
+    font-weight: 600;
 }
 .btn-outline-brand:hover, .btn-outline-brand:focus {
-    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
+    background: var(--primary);
     color: #fff;
-    border-color: transparent;
+    border-color: var(--primary);
+    box-shadow: none;
 }
 
-/* Contained white button on gradient sections */
+/* White button on red CTA sections */
 .btn-light.brand-cta-btn {
-    color: var(--brand-start);
+    color: var(--primary);
     font-weight: 600;
     border: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-radius: var(--radius-btn);
+    box-shadow: none;
 }
 .btn-light.brand-cta-btn:hover, .btn-light.brand-cta-btn:focus {
     background: #f1f3ff;
-    color: var(--brand-start);
-    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+    color: var(--primary-dark);
+    box-shadow: none;
 }
 
-/* ─── Hero ───────────────────────────────────────────────────── */
-.hero-section { padding: 6rem 0 5rem; }
-.hero-heading  { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; }
-.hero-sub      { font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.7; opacity: 0.92; }
+/* ─── Hero ──────────────────────────────────────────────────────── */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 8rem 0 6rem;
+    background-color: var(--bg-default);
+    border-bottom: 1px solid var(--divider);
+}
 
-/* ─── Stats ──────────────────────────────────────────────────── */
-.stat-value { font-size: 2.25rem; color: var(--brand-start); }
+.hero-heading {
+    font-size: clamp(2.8rem, 4.5vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -2.5px;
+    color: var(--text-primary) !important;
+}
 
-.stat-item + .stat-item { border-left: 1px solid rgba(0,0,0,0.08); }
+.hero-heading .hero-heading-accent,
+.hero-heading-accent { color: var(--primary) !important; }
+
+.hero-sub {
+    font-size: clamp(1rem, 1.8vw, 1.15rem);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    max-width: 480px;
+}
+
+/* Hero outline button — dark bg variant */
+.btn-hero-outline {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1.5px solid var(--border-input);
+    border-radius: var(--radius-btn);
+    font-weight: 600;
+}
+.btn-hero-outline:hover, .btn-hero-outline:focus {
+    border-color: var(--border-hover);
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.05);
+    box-shadow: none;
+}
+
+/* Hero stats row */
+.hero-stats { align-items: flex-start; }
+
+.hero-stat-item { display: flex; flex-direction: column; }
+
+.hero-stat-divider {
+    padding-left: 1.25rem;
+    border-left: 1px solid var(--divider);
+}
+
+.hero-stat-value {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+}
+
+.hero-stat-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 2px;
+}
+
+/* ─── CTA Section ───────────────────────────────────────────────── */
+.cta-section {
+    background-color: var(--bg-default);
+    border-top: 1px solid var(--divider);
+    border-bottom: 1px solid var(--divider);
+}
+
+/* ─── Stats ─────────────────────────────────────────────────────── */
+.stat-value { font-size: 2.25rem; font-weight: 800; color: var(--primary); }
+.stat-label { color: var(--text-secondary); }
+
+.stat-item + .stat-item { border-left: 1px solid var(--divider); }
 
 @media (max-width: 767px) {
-    .stat-item + .stat-item { border-left: none; border-top: 1px solid rgba(0,0,0,0.08); }
+    .stat-item + .stat-item { border-left: none; border-top: 1px solid var(--divider); }
 }
 
-/* ─── Sections ───────────────────────────────────────────────── */
-.section-title { font-size: clamp(1.6rem, 3vw, 2.1rem); }
-.section-sub   { font-size: 1.0625rem; }
+/* ─── Sections ──────────────────────────────────────────────────── */
+.section-title { font-size: clamp(1.6rem, 3vw, 2.1rem); color: var(--text-primary); }
+.section-sub   { font-size: 1.0625rem; color: var(--text-secondary); }
 
-/* ─── Cards ──────────────────────────────────────────────────── */
-.card { border-radius: 10px !important; transition: box-shadow 0.2s, transform 0.2s; }
-.card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.10) !important; transform: translateY(-3px); }
+/* Section backgrounds — alternating for contrast */
+.bg-light  { background-color: var(--bg-default) !important; }  /* #141414 — darkest */
+.bg-white  { background-color: var(--bg-paper)   !important; }  /* #1F1F1F — mid */
+
+/* ─── Cards ─────────────────────────────────────────────────────── */
+.card {
+    background-color: var(--bg-paper) !important;
+    border: 1px solid var(--border-card) !important;
+    border-radius: var(--radius) !important;
+    box-shadow: none !important;
+    transition: border-color 0.2s, transform 0.2s;
+}
+.card:hover {
+    border-color: rgba(255,255,255,0.18) !important;
+    transform: translateY(-3px);
+    box-shadow: none !important;
+}
+.card-body { color: var(--text-primary); }
+
+/* On paper-bg sections, cards flip to default (darker) bg for contrast */
+.bg-white .card,
+.cta-section .card {
+    background-color: var(--bg-default) !important;
+}
 
 /* Step number/icon badge */
 .step-badge {
@@ -102,7 +253,8 @@
     justify-content: center;
     font-size: 1.6rem;
     font-weight: 700;
-    box-shadow: 0 4px 12px rgba(102,126,234,0.35);
+    background: var(--primary);
+    color: #fff;
 }
 
 /* Benefit emoji */
@@ -111,32 +263,67 @@
 /* Coloured bottom bar on credibility cards */
 .brand-card-bar {
     height: 4px;
-    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
-    border-radius: 0 0 10px 10px;
+    background: var(--primary);
+    border-radius: 0 0 var(--radius) var(--radius);
 }
 
-/* ─── Insight chip ───────────────────────────────────────────── */
+/* ─── Insight chip ──────────────────────────────────────────────── */
 .insight-chip {
-    background: rgba(102,126,234,0.08);
-    border-left: 3px solid var(--brand-start);
+    background: rgba(229,9,20,0.08);
+    border-left: 3px solid var(--primary);
     border-radius: 0 4px 4px 0;
     padding: 0.55rem 0.75rem;
     font-size: 0.8125rem;
-    color: rgba(0,0,0,0.7);
+    color: var(--text-secondary);
     line-height: 1.45;
 }
 
-/* ─── Comparison list ────────────────────────────────────────── */
+/* ─── Comparison list ───────────────────────────────────────────── */
 .comparison-list { list-style: none; padding: 0; margin: 0; }
+.comparison-list li { border-bottom: 1px solid var(--divider); }
 .comparison-list li:last-child { border-bottom: none !important; }
 
-/* ─── Modal ──────────────────────────────────────────────────── */
-/* Bootstrap handles sizing & centering — we just style brand bits */
-.form-control:focus,
-.form-select:focus {
-    border-color: var(--brand-start);
-    box-shadow: 0 0 0 0.2rem rgba(102,126,234,0.2);
+/* ─── Modal ─────────────────────────────────────────────────────── */
+.modal-content {
+    background-color: var(--bg-paper);
+    border: 1px solid var(--border-card) !important;
+    border-radius: var(--radius) !important;
+    box-shadow: none !important;
+    color: var(--text-primary);
 }
+
+.modal-header { border-bottom: 1px solid var(--divider) !important; }
+.modal-footer { border-top: 1px solid var(--divider) !important; }
+
+.modal-title { color: var(--text-primary); }
+.modal .text-muted { color: var(--text-secondary) !important; }
+
+.btn-close { filter: invert(1) grayscale(1); }
+
+.form-control,
+.form-select {
+    background-color: var(--bg-default);
+    border: 1px solid var(--border-input);
+    border-radius: var(--radius-btn);
+    color: var(--text-primary);
+}
+.form-control::placeholder { color: var(--text-disabled); }
+.form-control:hover, .form-select:hover {
+    border-color: var(--border-hover);
+}
+.form-control:focus, .form-select:focus {
+    background-color: var(--bg-default);
+    border-color: var(--primary);
+    color: var(--text-primary);
+    box-shadow: 0 0 0 0.2rem rgba(229,9,20,0.20);
+}
+
+.form-select option {
+    background-color: var(--bg-menu);
+    color: var(--text-primary);
+}
+
+.form-label { color: var(--text-primary); font-weight: 500; }
 
 .success-circle {
     width: 64px;
@@ -146,25 +333,74 @@
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    box-shadow: 0 4px 12px rgba(102,126,234,0.35);
+    background: var(--primary);
+    color: #fff;
 }
 
-/* ─── Footer ─────────────────────────────────────────────────── */
-.site-footer { background: #1e2330; }
+/* ─── brand-gradient: used on hero/CTA sections and step badges ─── */
+/* On sections (hero, CTA) we use the dark paper bg, not a red banner */
+.brand-gradient {
+    background: var(--bg-paper) !important;
+}
+/* Step badges and success circle keep the red fill via explicit overrides below */
+
+/* ─── Footer ────────────────────────────────────────────────────── */
+.site-footer {
+    background-color: var(--bg-paper);
+    border-top: 1px solid var(--divider);
+    color: var(--text-primary);
+}
 
 .brand-footer-logo {
-    background: linear-gradient(135deg, #a78bfa 0%, #c084fc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--primary);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    -webkit-text-fill-color: var(--primary);
 }
 
 .footer-link {
-    color: rgba(255,255,255,0.55);
+    color: var(--text-secondary);
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.2s;
 }
-.footer-link:hover { color: #fff; }
+.footer-link:hover { color: var(--text-primary); }
 
-.footer-heading { font-size: 0.7rem; letter-spacing: 0.08em; }
+.footer-heading {
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    color: var(--text-disabled) !important;
+}
+
+/* Footer border */
+.site-footer .border-bottom {
+    border-color: var(--divider) !important;
+}
+
+/* ─── Text helpers ──────────────────────────────────────────────── */
+.text-muted { color: var(--text-secondary) !important; }
+.text-white-50 { color: var(--text-secondary) !important; }
+
+/* ─── Outline secondary button (modal cancel) ───────────────────── */
+.btn-outline-secondary {
+    color: var(--text-secondary);
+    border-color: var(--border-input);
+    border-radius: var(--radius-btn);
+    font-weight: 600;
+}
+.btn-outline-secondary:hover {
+    background-color: var(--bg-menu);
+    border-color: var(--border-hover);
+    color: var(--text-primary);
+}
+
+/* ─── Bootstrap nav pills / tabs (if used) ──────────────────────── */
+.nav-pills .nav-link.active {
+    background: var(--primary);
+    border-radius: var(--radius-btn);
+}
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+    background: transparent;
+}

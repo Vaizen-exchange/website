@@ -1,18 +1,13 @@
 {
-  "title": "The Platform — Vaizen",
+  "title": "About Us — Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Built for the Way Deals Actually Happen",
-      "description": "Vaizen is a licensing marketplace built for the way deals actually happen. Full submission workflow, multi-territory avails engine, advanced search, and role-based access. Built and running.",
-      "buttons": [
-        {
-          "text": "Want to Know More?",
-          "url": "#contact-modal",
-          "class": "btn-primary"
-        }
-      ]
+      "line1": "You don't need a business degree",
+      "line2": "to manage your IP anymore.",
+      "description": "Vaizen is an IP licensing marketplace. Our core principle for creative innovation lies in absolute simplicity — structure the workflows, and you'll be open to more exciting opportunities.",
+      "buttons": []
     },
     "problem": {
       "title": "How a $230B Market Still Runs on Email",
@@ -21,54 +16,23 @@
         {
           "icon": "🗂️",
           "title": "Discovery Is Broken",
-          "description": "Rights holders with completed titles have no persistent, searchable layer to reach buyers. Availability lives in spreadsheets and PDFs sent to whoever you met at a market."
+          "description": "Gauge the audience requirement even before you send an email. Rights holders have no persistent, searchable layer to reach buyers efficiently."
         },
         {
           "icon": "📧",
           "title": "Licensing Lives in Email Chains",
-          "description": "Avails, territories, and rights windows are negotiated through back-and-forth emails. A buyer in Germany shouldn't need three calls to know if European SVOD rights are available."
+          "description": "A proper analysis layer dashboard helps you gauge the potential of a territory for your rights. No more back-and-forth chains to find out if a window is available."
         },
         {
           "icon": "🏛️",
           "title": "Markets Are Gatekeepers",
-          "description": "Cannes, AFM, and MIPCOM are expensive, infrequent, and closed-network. The infrastructure connecting indie supply to global demand shouldn't require a hotel room in the South of France."
-        }
-      ]
-    },
-    "solution": {
-      "title": "Everything the Market Needed. Nothing It Didn't.",
-      "subtitle": "A full licensing workflow — built and running",
-      "benefits": [
-        {
-          "icon": "🎬",
-          "title": "Full Title Submission",
-          "description": "Video, metadata, artwork, documents, and licensing availability in one structured workflow. Structured data from the first click — not a form that ends in a PDF attachment."
-        },
-        {
-          "icon": "🗺️",
-          "title": "Multi-Territory Avails Engine",
-          "description": "Worldwide, include-list, or exclude-list licensing across 50+ countries. AVOD, SVOD, TVOD, Pay TV, and Free TV supported. Territory configuration is granular and real-time."
-        },
-        {
-          "icon": "🔍",
-          "title": "Advanced Search",
-          "description": "Genre, country of production, cast, director, festival pedigree, content advisory, and release window. Every search returns only titles with declared, available rights."
-        },
-        {
-          "icon": "👥",
-          "title": "Role-Based Access",
-          "description": "Filmmaker, Producer, Sales Agent, Distributor, Catalog Owner, Buyer, and Film Festival roles — each with appropriate permissions and workflows tailored to how they actually work."
-        },
-        {
-          "icon": "🔒",
-          "title": "Verified Identity Layer",
-          "description": "Every party is verified at registration. Rights holders know who is accessing their screeners. Buyers know they are dealing with legitimate, authenticated rights owners."
+          "description": "Whether you want to start small, or you wish to go big — we're right there with you. Grow as you please, without needing a hotel room in the South of France."
         }
       ]
     },
     "variables": {
       "title": "Supply and Demand, Finally Connected",
-      "subtitle": "Vaizen closes the gap that has existed since film markets moved online in 2020",
+      "subtitle": "Vaizen closes the gap that has existed since film markets moved online",
       "items": [
         {
           "number": "1",
@@ -79,27 +43,6 @@
           "number": "2",
           "title": "The Buyers",
           "description": "Streaming platforms, broadcasters, and distributors have tripled their acquisition budgets in five years. They need a reliable, searchable source of indie content with declared avails. Vaizen is that source."
-        }
-      ]
-    },
-    "metrics": {
-      "title": "The Signals Are Unmistakable",
-      "subtitle": "Why now is exactly the right moment to build this infrastructure",
-      "items": [
-        {
-          "icon": "💰",
-          "name": "$230B+ Market",
-          "description": "The global content licensing and distribution market. The majority of this value flows through opaque, relationship-dependent channels. Vaizen makes it structural and searchable."
-        },
-        {
-          "icon": "📈",
-          "name": "Streaming Fragmentation",
-          "description": "Dozens of new platforms launched globally since 2020, each competing for indie content. More buyers, same broken discovery infrastructure. The demand has never been greater."
-        },
-        {
-          "icon": "🎯",
-          "name": "No Neutral Platform",
-          "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills — and it is already built."
         }
       ]
     }

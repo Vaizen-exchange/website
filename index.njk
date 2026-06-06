@@ -4,47 +4,39 @@
 
     {% include "hero.njk" %}
 
-    <!-- Stats -->
+    <!-- Block 2: India's first IP Marketplace -->
     <section class="py-5 bg-white border-bottom">
         <div class="container">
-            <div class="row g-0 text-center">
-                {% for stat in stats %}
-                <div class="col-6 col-md-3 stat-item">
-                    <div class="px-3 py-2">
-                        <div class="stat-value fw-bold mb-1">{{ stat.value }}</div>
-                        <div class="text-muted small">{{ stat.label }}</div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works -->
-    <section class="py-5 bg-light">
-        <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title fw-bold mb-2">How It Works</h2>
-                <p class="section-sub text-muted">Three simple steps to list your title or discover content</p>
+                <h2 class="section-title fw-bold mb-2">India's first Intellectual Property Marketplace.<br>Created specially for films.</h2>
+                <p class="section-sub text-muted">Films, advertisements, animations, TV. You name it, we've got your back.</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                {% for step in steps %}
-                <div class="col">
-                    <div class="card h-100 border-0 shadow-sm text-center">
-                        <div class="card-body p-4">
-                            <div class="step-badge brand-gradient text-white mx-auto mb-4">{{ step.number }}</div>
-                            <h5 class="fw-semibold mb-3">{{ step.title }}</h5>
-                            <p class="text-muted mb-0">{{ step.description }}</p>
+            <div class="row g-4 justify-content-center mb-5">
+                {% for cat in categories %}
+                <div class="col-12 col-md-5">
+                    <div class="card h-100 text-center">
+                        <div class="card-body p-5">
+                            <div class="benefit-emoji mb-3">{{ cat.icon }}</div>
+                            <h4 class="fw-bold mb-3">{{ cat.title }}</h4>
+                            <ul class="list-unstyled text-muted mb-4">
+                                {% for point in cat.points %}
+                                <li class="mb-1">› {{ point }}</li>
+                                {% endfor %}
+                            </ul>
+                            <a href="{{ cat.url }}" class="btn btn-brand px-4 py-2">Learn More</a>
                         </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
+            <div class="text-center">
+                <h2 class="fw-bold" style="font-size: clamp(1.8rem, 4vw, 3rem); letter-spacing: -1px;">Focus on your showcase.<br><span style="color: var(--text-secondary); font-weight: 600;">Let us handle the boring numbers. We're good at it.</span></h2>
+            </div>
         </div>
     </section>
 
     <!-- Why Vaizen -->
-    <section class="py-5 bg-white">
+    <section class="py-5 bg-light">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title fw-bold mb-2">Why Vaizen?</h2>
@@ -53,7 +45,7 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
                 {% for benefit in benefits %}
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-sm text-center">
+                    <div class="card h-100 text-center">
                         <div class="card-body p-4">
                             <div class="benefit-emoji mb-3">{{ benefit.icon }}</div>
                             <h5 class="fw-semibold mb-3">{{ benefit.title }}</h5>
@@ -66,14 +58,37 @@
         </div>
     </section>
 
+    <!-- The Signals Are Unmistakable -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title fw-bold mb-2">The Signals Are Unmistakable</h2>
+                <p class="section-sub text-muted">Why now is exactly the right moment to build this infrastructure</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                {% for signal in signals %}
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body p-4">
+                            <div class="benefit-emoji mb-3">{{ signal.icon }}</div>
+                            <h5 class="fw-semibold mb-3">{{ signal.name }}</h5>
+                            <p class="text-muted mb-0">{{ signal.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
     <!-- CTA -->
-    <section class="py-5 brand-gradient text-white text-center">
+    <section class="py-5 cta-section text-white text-center">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <h2 class="fw-bold mb-3">The Infrastructure the Industry Has Been Waiting For</h2>
                     <p class="mb-5 opacity-75">Streaming budgets have tripled. The supply is there. The infrastructure connecting indie rights to global buyers hasn't caught up — until now. Vaizen is launching soon.</p>
-                    <a href="#contact-modal" class="btn btn-light btn-lg px-5 py-3 fw-semibold brand-cta-btn">Want to Know More?</a>
+                    <button class="btn btn-brand btn-lg px-5 py-3" data-bs-toggle="modal" data-bs-target="#contactModal">Want to Know More?</button>
                 </div>
             </div>
         </div>

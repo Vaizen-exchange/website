@@ -1,18 +1,31 @@
 {
-  "title": "Vaizen — The Film & TV Licensing Marketplace",
+  "title": "Vaizen — India's First IP Marketplace",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "hero": {
-    "heading": "The Global Marketplace for Film & TV Rights",
-    "description": "A marketplace connecting rights holders directly with buyers, platforms, and distributors worldwide. Launching soon — request early access.",
-    "buttons": [
-      {
-        "text": "Want to Know More?",
-        "url": "#contact-modal",
-        "class": "btn-primary"
-      }
+    "line1": "Unfiltered Vision.",
+    "line2": "Unrestricted Capital.",
+    "description": "India's first Intellectual Property Marketplace. Created specially for films, advertisements, animations, and TV.",
+    "stats": [
+      { "value": "1,200+", "label": "Titles" },
+      { "value": "50",     "label": "Countries" },
+      { "value": "AVOD · SVOD · TVOD", "label": "License types" }
     ]
   },
+  "categories": [
+    {
+      "title": "For Filmmakers",
+      "icon": "🎬",
+      "points": ["List your project", "Build your team", "Match with investors"],
+      "url": "for-creators.html"
+    },
+    {
+      "title": "For IP Investors",
+      "icon": "📊",
+      "points": ["Create your profile", "Provide accreditation", "Get vetted deal flow"],
+      "url": "for-investors.html"
+    }
+  ],
   "stats": [
     {
       "value": "$230B+",
@@ -31,48 +44,48 @@
       "label": "Industry professionals at Cannes Marché annually"
     }
   ],
-  "steps": [
+  "signals": [
     {
-      "number": "1",
-      "title": "Onboard Your Title",
-      "description": "Upload video, metadata, artwork, and documents. Define your territory-by-territory avails across AVOD, SVOD, TVOD, Pay TV, and Free TV — all in one workflow."
+      "icon": "💰",
+      "name": "$230B+ Market",
+      "description": "The global content licensing and distribution market. The majority of this value flows through opaque, relationship-dependent channels. Vaizen makes it structural and searchable."
     },
     {
-      "number": "2",
-      "title": "Buyers Discover You",
-      "description": "Platforms and distributors search by genre, territory, festival pedigree, cast, director, and more. Your title surfaces to the right buyers — no cold calls required."
+      "icon": "📈",
+      "name": "Streaming Fragmentation",
+      "description": "Dozens of new platforms launched globally since 2020, each competing for indie content. More buyers, same broken discovery infrastructure. The demand has never been greater."
     },
     {
-      "number": "3",
-      "title": "Deals Get Done",
-      "description": "Rights holders and buyers connect directly on the platform. No sales agents. No market badges. No email chains. Deals start in minutes, not months."
+      "icon": "🎯",
+      "name": "No Neutral Platform",
+      "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills — and it is already built."
     }
   ],
   "benefits": [
     {
       "icon": "🌍",
       "title": "Direct Access, Global Reach",
-      "description": "Rights holders reach buyers in 50+ countries without a sales agent or market badge. Buyers reach verified rights holders without a conference pass."
+      "description": "Co-production deals, international exposure, sale of rights. Reach buyers in 50+ countries without a sales agent or market badge."
     },
     {
       "icon": "🔍",
       "title": "Structured Discovery",
-      "description": "Buyers filter by genre, territory, festival pedigree, cast, director, and release window. Structured data, not a static PDF or an email chain."
+      "description": "Organise your outreach strategy — not in a messy email inbox anymore. Buyers filter by genre, territory, festival pedigree, cast, director, and release window."
     },
     {
       "icon": "📋",
       "title": "Avails Engine",
-      "description": "Multi-territory licensing availability declared upfront. Buyers know what's available before the first conversation — by window, by territory."
+      "description": "Structure your avails. Multi-territory licensing availability declared upfront. Buyers know what's available before the first conversation — by window, by territory."
     },
     {
       "icon": "🔒",
       "title": "Verified Identities",
-      "description": "Every rights holder and buyer is identity-verified. Screeners reach verified acquisition professionals, not anonymous inboxes."
+      "description": "Proper identity checks guaranteed. Work only with verified professionals with proper track record. Screeners reach verified acquisition professionals, not anonymous inboxes."
     },
     {
       "icon": "⚡",
       "title": "Always On",
-      "description": "The marketplace never sleeps. Unlike Cannes or AFM, deals can start at 2am on a Tuesday — from anywhere in the world."
+      "description": "The marketplace that never sleeps. Unlike Cannes or AFM, deals can start at 2am on a Tuesday — from anywhere in the world."
     }
   ]
 }

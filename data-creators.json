@@ -1,18 +1,13 @@
 {
-  "title": "For Rights Holders — Vaizen",
+  "title": "For IP Originators — Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Your Titles. Global Reach. No Gatekeepers.",
-      "description": "Onboard your film or TV title once. Define your avails territory by territory. Reach distributors and platforms in 50+ countries — without a sales agent, a market badge, or weeks of back-and-forth.",
-      "buttons": [
-        {
-          "text": "Want to Know More?",
-          "url": "#contact-modal",
-          "class": "btn-primary"
-        }
-      ]
+      "line1": "Your Titles. Global Reach.",
+      "line2": "No Gatekeepers.",
+      "description": "Onboard your title once and set your territory rights. Our platform's sales agent will put your project in front of distributors in 50+ countries — saving you from costly networking trips and weeks of back-and-forth.",
+      "buttons": []
     },
     "valueTransfer": {
       "title": "From Submission to Discovery — All on Platform",

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | default("Vaizen — The Film & TV Licensing Marketplace") }}</title>
+    <title>{{ title | default("Vaizen — India's First IP Marketplace") }}</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     {% block head %}{% endblock %}
@@ -21,7 +21,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content border-0 shadow-lg">
 
-                <div class="modal-header border-0 pb-0 px-4 pt-4">
+                <div class="modal-header border-0 pb-0 px-4 pt-4" id="contactModalHeader">
                     <div>
                         <h4 class="modal-title fw-semibold mb-1" id="contactModalLabel">Want to Know More?</h4>
                         <p class="text-muted mb-0 small">Tell us a bit about yourself and we'll be in touch.</p>
@@ -71,7 +71,7 @@
 
                     <!-- Success state (hidden until submission) -->
                     <div id="formSuccess" class="text-center py-5 d-none">
-                        <div class="success-circle brand-gradient text-white mx-auto mb-3">&#10003;</div>
+                        <div class="success-circle mx-auto mb-3">&#10003;</div>
                         <h5 class="fw-semibold mb-2">Thank you — we'll be in touch.</h5>
                         <p class="text-muted mb-0">We've received your details and will reach out shortly.</p>
                     </div>
@@ -91,7 +91,7 @@
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content border-0 shadow-lg">
 
-                <div class="modal-header border-0 pb-0 px-4 pt-4">
+                <div class="modal-header border-0 pb-0 px-4 pt-4" id="partnerModalHeader">
                     <div>
                         <h4 class="modal-title fw-semibold mb-1" id="partnerModalLabel">Partner with Us</h4>
                         <p class="text-muted mb-0 small">Tell us about yourself and your interest in partnering with Vaizen.</p>
@@ -136,7 +136,7 @@
 
                     <!-- Success state (hidden until submission) -->
                     <div id="partnerFormSuccess" class="text-center py-5 d-none">
-                        <div class="success-circle brand-gradient text-white mx-auto mb-3">&#10003;</div>
+                        <div class="success-circle mx-auto mb-3">&#10003;</div>
                         <h5 class="fw-semibold mb-2">Thank you — we'll be in touch.</h5>
                         <p class="text-muted mb-0">We've received your details and will reach out shortly.</p>
                     </div>
@@ -147,6 +147,68 @@
                     <button type="button" class="btn btn-brand px-4" id="partnerSubmitBtn">Send</button>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content border-0">
+                <div class="modal-header px-4 pt-4">
+                    <h4 class="modal-title fw-semibold" id="privacyModalLabel">Privacy Policy</h4>
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-4 py-4" style="color: var(--text-secondary); line-height: 1.8;">
+                    <p>Last updated: January 2026</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">1. Information We Collect</h6>
+                    <p>We collect information you provide directly to us when you register, submit a title, or contact us — including name, email, organisation, and role. We also collect usage data such as pages visited and search queries within the platform.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">2. How We Use Your Information</h6>
+                    <p>We use your information to operate and improve the Vaizen marketplace, verify your identity, connect rights holders with buyers, send you platform updates, and respond to your enquiries.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">3. Sharing of Information</h6>
+                    <p>We do not sell your personal data. We share information only as necessary to facilitate transactions between verified rights holders and buyers on the platform, or as required by law.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">4. Data Retention</h6>
+                    <p>We retain your data for as long as your account is active or as needed to provide services. You may request deletion of your account and associated data at any time by contacting us.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">5. Security</h6>
+                    <p>We implement industry-standard security measures to protect your information. All data is encrypted in transit and at rest.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">6. Contact</h6>
+                    <p class="mb-0">For any privacy-related questions, contact us at privacy@vaizen.in.</p>
+                </div>
+                <div class="modal-footer px-4 pb-4">
+                    <button type="button" class="btn btn-brand px-4" data-bs-dismiss="modal">I Understand</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div class="modal fade" id="tosModal" tabindex="-1" aria-labelledby="tosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content border-0">
+                <div class="modal-header px-4 pt-4">
+                    <h4 class="modal-title fw-semibold" id="tosModalLabel">Terms of Service</h4>
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body px-4 py-4" style="color: var(--text-secondary); line-height: 1.8;">
+                    <p>Last updated: January 2026</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">1. Acceptance of Terms</h6>
+                    <p>By accessing or using the Vaizen platform, you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">2. Eligibility</h6>
+                    <p>You must be at least 18 years old and a verified industry professional to use Vaizen. We reserve the right to verify your identity and professional credentials.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">3. Rights Holder Responsibilities</h6>
+                    <p>Rights holders are solely responsible for ensuring they hold the rights they represent on the platform. You must not list titles for which you do not hold valid, cleared rights.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">4. Buyer Responsibilities</h6>
+                    <p>Buyers agree to use the platform only for legitimate acquisition purposes. Screener access is granted for evaluation purposes only and may not be redistributed.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">5. Platform Role</h6>
+                    <p>Vaizen is a marketplace platform and is not a party to any transaction between rights holders and buyers. We do not guarantee the accuracy of listings or the completion of any deal.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">6. Termination</h6>
+                    <p>We reserve the right to suspend or terminate accounts that violate these terms or engage in fraudulent activity.</p>
+                    <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">7. Contact</h6>
+                    <p class="mb-0">For any questions about these terms, contact us at legal@vaizen.in.</p>
+                </div>
+                <div class="modal-footer px-4 pb-4">
+                    <button type="button" class="btn btn-brand px-4" data-bs-dismiss="modal">I Understand</button>
+                </div>
             </div>
         </div>
     </div>

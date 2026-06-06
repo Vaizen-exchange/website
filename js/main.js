@@ -8,11 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
         var form    = document.getElementById('contactForm');
         var success = document.getElementById('formSuccess');
         var footer  = document.getElementById('modalFooter');
+        var header  = document.getElementById('contactModalHeader');
 
         form.reset();
         form.classList.remove('was-validated', 'd-none');
         success.classList.add('d-none');
         footer.classList.remove('d-none');
+        header.classList.remove('d-none');
     });
 
     document.addEventListener('click', function (e) {
@@ -43,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.classList.add('d-none');
         document.getElementById('formSuccess').classList.remove('d-none');
         document.getElementById('modalFooter').classList.add('d-none');
+        document.getElementById('contactModalHeader').classList.add('d-none');
     });
 
     // --- Partner modal ---
@@ -52,11 +55,13 @@ document.addEventListener('DOMContentLoaded', function () {
         var form    = document.getElementById('partnerForm');
         var success = document.getElementById('partnerFormSuccess');
         var footer  = document.getElementById('partnerModalFooter');
+        var header  = document.getElementById('partnerModalHeader');
 
         form.reset();
         form.classList.remove('was-validated', 'd-none');
         success.classList.add('d-none');
         footer.classList.remove('d-none');
+        header.classList.remove('d-none');
     });
 
     document.getElementById('partnerSubmitBtn').addEventListener('click', function () {
@@ -79,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.classList.add('d-none');
         document.getElementById('partnerFormSuccess').classList.remove('d-none');
         document.getElementById('partnerModalFooter').classList.add('d-none');
+        document.getElementById('partnerModalHeader').classList.add('d-none');
     });
 
 });

@@ -1,18 +1,13 @@
 {
-  "title": "For Buyers — Vaizen",
+  "title": "For IP Investors — Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Search. Discover. Acquire.",
-      "description": "Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place. Vaizen is launching soon.",
-      "buttons": [
-        {
-          "text": "Want to Know More?",
-          "url": "#contact-modal",
-          "class": "btn-primary"
-        }
-      ]
+      "line1": "Acquisition,",
+      "line2": "reimagined.",
+      "description": "Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place.",
+      "buttons": []
     },
     "model": {
       "title": "From Search to Screening in Minutes",
@@ -26,7 +21,7 @@
         {
           "number": "2",
           "title": "Search the Marketplace",
-          "description": "Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more. Every result is a title with declared avails."
+          "description": "Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more."
         },
         {
           "number": "3",
@@ -36,7 +31,7 @@
         {
           "number": "4",
           "title": "Request a Screener",
-          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place."
+          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place. Bid on the avails."
         },
         {
           "number": "5",
@@ -93,36 +88,7 @@
         {
           "icon": "✅",
           "title": "The Vaizen Way",
-          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones."
-        },
-        {
-          "icon": "🌍",
-          "title": "The Cinando Problem",
-          "description": "Cinando and TVSL are dated, expensive, and built around closed networks. Vaizen is open, searchable, and designed for how streaming platforms actually acquire content today."
-        }
-      ]
-    },
-    "metrics": {
-      "title": "Search Every Dimension That Matters",
-      "subtitle": "Find exactly what your platform or distribution slate needs",
-      "items": [
-        {
-          "icon": "🎬",
-          "name": "Genre & Format",
-          "description": "Filter by documentary, drama, thriller, comedy, animation, and more. Feature film, TV series, miniseries, or short — every format supported.",
-          "insight": "Find titles that fit your platform's content strategy, not just what's available"
-        },
-        {
-          "icon": "🗺️",
-          "name": "Territory & Avails",
-          "description": "Search by licensing window — AVOD, SVOD, TVOD — within specific territories or worldwide. Declared availability means no surprises mid-negotiation.",
-          "insight": "Know what's licensable before you make first contact"
-        },
-        {
-          "icon": "🏆",
-          "name": "Festival Pedigree & Talent",
-          "description": "Filter by festival (Sundance, TIFF, Cannes, Berlin, and more), director, cast, and country of production. Surface titles that carry the curatorial signal your audience expects.",
-          "insight": "Festival pedigree is a proven acquisition shortcut for quality signal"
+          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones. Manage your IP portfolio easily, no industry bias."
         }
       ]
     },

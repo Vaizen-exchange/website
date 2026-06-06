@@ -5,8 +5,9 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
-    "watch": "nodemon -e njk,json,css,js -x 'npm run build'",
-    "serve": "npm run build && npx http-server output -p 8080 -o"
+    "watch": "nodemon --watch . -e njk,json,css,js --ignore output/ --ignore node_modules/ -x 'node build.js'",
+    "sync": "browser-sync start --server output --port 8080 --files 'output/**/*' --no-open",
+    "dev": "npm-run-all build --parallel watch sync"
   },
   "keywords": [
     "nunjucks",
@@ -20,7 +21,9 @@
     "nunjucks": "^3.2.4"
   },
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "http-server": "^14.1.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5"
   }
 }
