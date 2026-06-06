@@ -1,5 +1,5 @@
 {
-  "title": "The Platform — Vaizen",
+  "title": "The Platform \u2014 Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
@@ -12,24 +12,26 @@
           "url": "#contact-modal",
           "class": "btn-primary"
         }
-      ]
+      ],
+      "line1": "The platform",
+      "line2": "built for rights."
     },
     "problem": {
       "title": "How a $230B Market Still Runs on Email",
       "subtitle": "The infrastructure gap Vaizen was built to close",
       "challenges": [
         {
-          "icon": "🗂️",
+          "icon": "\ud83d\uddc2\ufe0f",
           "title": "Discovery Is Broken",
           "description": "Rights holders with completed titles have no persistent, searchable layer to reach buyers. Availability lives in spreadsheets and PDFs sent to whoever you met at a market."
         },
         {
-          "icon": "📧",
+          "icon": "\ud83d\udce7",
           "title": "Licensing Lives in Email Chains",
           "description": "Avails, territories, and rights windows are negotiated through back-and-forth emails. A buyer in Germany shouldn't need three calls to know if European SVOD rights are available."
         },
         {
-          "icon": "🏛️",
+          "icon": "\ud83c\udfdb\ufe0f",
           "title": "Markets Are Gatekeepers",
           "description": "Cannes, AFM, and MIPCOM are expensive, infrequent, and closed-network. The infrastructure connecting indie supply to global demand shouldn't require a hotel room in the South of France."
         }
@@ -37,30 +39,30 @@
     },
     "solution": {
       "title": "Everything the Market Needed. Nothing It Didn't.",
-      "subtitle": "A full licensing workflow — built and running",
+      "subtitle": "A full licensing workflow \u2014 built and running",
       "benefits": [
         {
-          "icon": "🎬",
+          "icon": "\ud83c\udfac",
           "title": "Full Title Submission",
-          "description": "Video, metadata, artwork, documents, and licensing availability in one structured workflow. Structured data from the first click — not a form that ends in a PDF attachment."
+          "description": "Video, metadata, artwork, documents, and licensing availability in one structured workflow. Structured data from the first click \u2014 not a form that ends in a PDF attachment."
         },
         {
-          "icon": "🗺️",
+          "icon": "\ud83d\uddfa\ufe0f",
           "title": "Multi-Territory Avails Engine",
           "description": "Worldwide, include-list, or exclude-list licensing across 50+ countries. AVOD, SVOD, TVOD, Pay TV, and Free TV supported. Territory configuration is granular and real-time."
         },
         {
-          "icon": "🔍",
+          "icon": "\ud83d\udd0d",
           "title": "Advanced Search",
           "description": "Genre, country of production, cast, director, festival pedigree, content advisory, and release window. Every search returns only titles with declared, available rights."
         },
         {
-          "icon": "👥",
+          "icon": "\ud83d\udc65",
           "title": "Role-Based Access",
-          "description": "Filmmaker, Producer, Sales Agent, Distributor, Catalog Owner, Buyer, and Film Festival roles — each with appropriate permissions and workflows tailored to how they actually work."
+          "description": "Filmmaker, Producer, Sales Agent, Distributor, Catalog Owner, Buyer, and Film Festival roles \u2014 each with appropriate permissions and workflows tailored to how they actually work."
         },
         {
-          "icon": "🔒",
+          "icon": "\ud83d\udd12",
           "title": "Verified Identity Layer",
           "description": "Every party is verified at registration. Rights holders know who is accessing their screeners. Buyers know they are dealing with legitimate, authenticated rights owners."
         }
@@ -73,7 +75,7 @@
         {
           "number": "1",
           "title": "The Rights Holders",
-          "description": "40,000+ films are produced globally every year. The majority are independent productions with no distribution infrastructure. They have titles, avails, and materials — they just can't reach buyers efficiently. Vaizen solves that."
+          "description": "40,000+ films are produced globally every year. The majority are independent productions with no distribution infrastructure. They have titles, avails, and materials \u2014 they just can't reach buyers efficiently. Vaizen solves that."
         },
         {
           "number": "2",
@@ -87,19 +89,19 @@
       "subtitle": "Why now is exactly the right moment to build this infrastructure",
       "items": [
         {
-          "icon": "💰",
+          "icon": "\ud83d\udcb0",
           "name": "$230B+ Market",
           "description": "The global content licensing and distribution market. The majority of this value flows through opaque, relationship-dependent channels. Vaizen makes it structural and searchable."
         },
         {
-          "icon": "📈",
+          "icon": "\ud83d\udcc8",
           "name": "Streaming Fragmentation",
           "description": "Dozens of new platforms launched globally since 2020, each competing for indie content. More buyers, same broken discovery infrastructure. The demand has never been greater."
         },
         {
-          "icon": "🎯",
+          "icon": "\ud83c\udfaf",
           "name": "No Neutral Platform",
-          "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills — and it is already built."
+          "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills \u2014 and it is already built."
         }
       ]
     }
