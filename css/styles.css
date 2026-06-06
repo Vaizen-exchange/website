@@ -78,6 +78,25 @@ h6 { font-weight: 600; }
     letter-spacing: -0.5px;
 }
 
+.hero-logo-mark {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.hero-logo-mark-mobile {
+    height: 140px;
+    width: auto;
+    opacity: 0.9;
+}
+
+.footer-logo {
+    height: 44px;
+    width: auto;
+    display: block;
+}
+
 .navbar-nav .nav-link {
     color: var(--text-secondary);
     font-weight: 500;
@@ -257,8 +276,12 @@ h6 { font-weight: 600; }
     color: #fff;
 }
 
-/* Benefit emoji */
+/* Benefit emoji / lucide icon wrapper */
 .benefit-emoji { font-size: 2.5rem; line-height: 1; }
+.benefit-emoji i[data-lucide] { width: 2rem; height: 2rem; stroke: var(--primary); stroke-width: 1.5; }
+
+/* Step badge lucide icons */
+.step-badge i[data-lucide] { width: 1.6rem; height: 1.6rem; stroke: #fff; stroke-width: 1.75; }
 
 /* Coloured bottom bar on credibility cards */
 .brand-card-bar {

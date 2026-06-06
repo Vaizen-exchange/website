@@ -1,12 +1,12 @@
 {
-  "title": "For IP Investors — Vaizen",
+  "title": "For IP Investors - Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
       "line1": "Acquisition,",
       "line2": "reimagined.",
-      "description": "Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place.",
+      "description": "Discover and acquire independent film and TV titles - with declared avails, verified rights holders, and all materials in one place.",
       "buttons": []
     },
     "model": {
@@ -26,17 +26,17 @@
         {
           "number": "3",
           "title": "Review Declared Avails",
-          "description": "Each title lists its territory-by-territory licensing availability upfront — AVOD, SVOD, TVOD, Pay TV, Free TV. Know what's available before the first conversation."
+          "description": "Each title lists its territory-by-territory licensing availability upfront - AVOD, SVOD, TVOD, Pay TV, Free TV. Know what's available before the first conversation."
         },
         {
           "number": "4",
           "title": "Request a Screener",
-          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place. Bid on the avails."
+          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials - video, metadata, artwork - in one place. Bid on the avails."
         },
         {
           "number": "5",
           "title": "Close the Deal",
-          "description": "Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery — all on platform."
+          "description": "Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery - all on platform."
         }
       ]
     },
@@ -45,32 +45,32 @@
       "subtitle": "Everything you need. Nothing you don't.",
       "items": [
         {
-          "icon": "🎯",
+          "icon": "list-checks",
           "title": "Active, Verified Listings",
           "description": "Every title on Vaizen has been submitted by a verified rights holder with declared avails. No dead listings. No unanswered screener requests."
         },
         {
-          "icon": "🔍",
+          "icon": "filter",
           "title": "Advanced Search",
           "description": "Filter across genre, territory, production country, director, cast, festival pedigree, content advisory, and release window simultaneously."
         },
         {
-          "icon": "📋",
+          "icon": "map",
           "title": "Upfront Avails",
           "description": "Territory-by-territory licensing availability declared before the first conversation. AVOD, SVOD, TVOD, Pay TV, Free TV across 50+ countries."
         },
         {
-          "icon": "📁",
+          "icon": "package",
           "title": "Materials Ready",
-          "description": "Video screeners, metadata packages, artwork, and legal documents — all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed."
+          "description": "Video screeners, metadata packages, artwork, and legal documents - all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed."
         },
         {
-          "icon": "🔒",
+          "icon": "fingerprint",
           "title": "Verified Rights Holders",
           "description": "Every seller is identity-verified. You know who you're dealing with before you pick up the phone. Legitimate rights ownership confirmed at registration."
         },
         {
-          "icon": "⚡",
+          "icon": "zap",
           "title": "Always Available",
           "description": "Search and discover at any hour, from any time zone. The marketplace doesn't have conference hours. Acquisition doesn't stop because the market ended."
         }
@@ -81,14 +81,14 @@
       "subtitle": "And why it needed to change",
       "comparisons": [
         {
-          "icon": "❌",
+          "icon": "x-circle",
           "title": "The Old Way",
           "description": "Sales agents. Market badges. Screener links in email chains. Weeks of back-and-forth to find out if rights are even available for your territory. Expensive, slow, and closed-network."
         },
         {
-          "icon": "✅",
+          "icon": "check-circle",
           "title": "The Vaizen Way",
-          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones. Manage your IP portfolio easily, no industry bias."
+          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes - not after three calls across time zones. Manage your IP portfolio easily, no industry bias."
         }
       ]
     },
@@ -98,7 +98,7 @@
       "models": [
         {
           "name": "Traditional Process",
-          "icon": "→",
+          "icon": "x",
           "points": [
             "Attend AFM, Cannes, or MIPCOM",
             "Receive screener links from sales agents",
@@ -111,13 +111,13 @@
         },
         {
           "name": "Vaizen",
-          "icon": "✓",
+          "icon": "check",
           "points": [
             "Search structured marketplace 24/7 from anywhere",
             "Review declared avails before first contact",
             "Reach verified rights holders directly on platform",
             "All materials available on demand",
-            "Discuss terms directly — no middleman overhead",
+            "Discuss terms directly - no middleman overhead",
             "Advanced filter across every acquisition parameter",
             "Global access, always on, no conference required"
           ]

@@ -1,12 +1,12 @@
 {
-  "title": "About Us — Vaizen",
+  "title": "About Us - Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
       "line1": "You don't need a business degree",
       "line2": "to manage your IP anymore.",
-      "description": "Vaizen is an IP licensing marketplace. Our core principle for creative innovation lies in absolute simplicity — structure the workflows, and you'll be open to more exciting opportunities.",
+      "description": "Vaizen is an IP licensing marketplace. Our core principle for creative innovation lies in absolute simplicity - structure the workflows, and you'll be open to more exciting opportunities.",
       "buttons": []
     },
     "problem": {
@@ -14,19 +14,19 @@
       "subtitle": "The infrastructure gap Vaizen was built to close",
       "challenges": [
         {
-          "icon": "🗂️",
+          "icon": "search-x",
           "title": "Discovery Is Broken",
           "description": "Gauge the audience requirement even before you send an email. Rights holders have no persistent, searchable layer to reach buyers efficiently."
         },
         {
-          "icon": "📧",
+          "icon": "mail-x",
           "title": "Licensing Lives in Email Chains",
           "description": "A proper analysis layer dashboard helps you gauge the potential of a territory for your rights. No more back-and-forth chains to find out if a window is available."
         },
         {
-          "icon": "🏛️",
+          "icon": "lock",
           "title": "Markets Are Gatekeepers",
-          "description": "Whether you want to start small, or you wish to go big — we're right there with you. Grow as you please, without needing a hotel room in the South of France."
+          "description": "Whether you want to start small, or you wish to go big - we're right there with you. Grow as you please, without needing a hotel room in the South of France."
         }
       ]
     },
@@ -37,7 +37,7 @@
         {
           "number": "1",
           "title": "The Rights Holders",
-          "description": "40,000+ films are produced globally every year. The majority are independent productions with no distribution infrastructure. They have titles, avails, and materials — they just can't reach buyers efficiently. Vaizen solves that."
+          "description": "40,000+ films are produced globally every year. The majority are independent productions with no distribution infrastructure. They have titles, avails, and materials - they just can't reach buyers efficiently. Vaizen solves that."
         },
         {
           "number": "2",

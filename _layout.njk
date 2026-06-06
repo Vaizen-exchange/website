@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | default("Vaizen — India's First IP Marketplace") }}</title>
+    <title>{{ title | default("Vaizen - India's First IP Marketplace") }}</title>
+    <link rel="icon" type="image/svg+xml" href="img/logo-mark.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     {% block head %}{% endblock %}
@@ -72,7 +73,7 @@
                     <!-- Success state (hidden until submission) -->
                     <div id="formSuccess" class="text-center py-5 d-none">
                         <div class="success-circle mx-auto mb-3">&#10003;</div>
-                        <h5 class="fw-semibold mb-2">Thank you — we'll be in touch.</h5>
+                        <h5 class="fw-semibold mb-2">Thank you - we'll be in touch.</h5>
                         <p class="text-muted mb-0">We've received your details and will reach out shortly.</p>
                     </div>
                 </div>
@@ -137,7 +138,7 @@
                     <!-- Success state (hidden until submission) -->
                     <div id="partnerFormSuccess" class="text-center py-5 d-none">
                         <div class="success-circle mx-auto mb-3">&#10003;</div>
-                        <h5 class="fw-semibold mb-2">Thank you — we'll be in touch.</h5>
+                        <h5 class="fw-semibold mb-2">Thank you - we'll be in touch.</h5>
                         <p class="text-muted mb-0">We've received your details and will reach out shortly.</p>
                     </div>
                 </div>
@@ -162,7 +163,7 @@
                 <div class="modal-body px-4 py-4" style="color: var(--text-secondary); line-height: 1.8;">
                     <p>Last updated: January 2026</p>
                     <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">1. Information We Collect</h6>
-                    <p>We collect information you provide directly to us when you register, submit a title, or contact us — including name, email, organisation, and role. We also collect usage data such as pages visited and search queries within the platform.</p>
+                    <p>We collect information you provide directly to us when you register, submit a title, or contact us - including name, email, organisation, and role. We also collect usage data such as pages visited and search queries within the platform.</p>
                     <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">2. How We Use Your Information</h6>
                     <p>We use your information to operate and improve the Vaizen marketplace, verify your identity, connect rights holders with buyers, send you platform updates, and respond to your enquiries.</p>
                     <h6 class="fw-semibold mb-2" style="color: var(--text-primary);">3. Sharing of Information</h6>
@@ -214,7 +215,9 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script src="js/main.js"></script>
+    <script>lucide.createIcons();</script>
     {% block scripts %}{% endblock %}
 </body>
 </html>

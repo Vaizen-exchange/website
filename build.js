@@ -78,6 +78,15 @@ try {
     path.join(outputDir, 'js', 'bootstrap.bundle.min.js')
   );
 
+  // Copy img directory
+  if (fs.existsSync('./img')) {
+    const imgOutDir = path.join(outputDir, 'img');
+    fs.mkdirSync(imgOutDir, { recursive: true });
+    fs.readdirSync('./img').forEach(file => {
+      fs.copyFileSync(path.join('./img', file), path.join(imgOutDir, file));
+    });
+  }
+
   // Copy CNAME for GitHub Pages custom domain
   if (fs.existsSync('./CNAME')) {
     fs.copyFileSync('./CNAME', path.join(outputDir, 'CNAME'));

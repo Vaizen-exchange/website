@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node build.js",
     "watch": "nodemon --watch . -e njk,json,css,js --ignore output/ --ignore node_modules/ -x 'node build.js'",
-    "sync": "browser-sync start --server output --port 8080 --files 'output/**/*' --no-open",
+    "sync": "browser-sync start --config bs-config.js",
     "dev": "npm-run-all build --parallel watch sync"
   },
   "keywords": [
@@ -18,6 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "lucide": "^1.17.0",
     "nunjucks": "^3.2.4"
   },
   "devDependencies": {

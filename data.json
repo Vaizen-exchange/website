@@ -1,5 +1,5 @@
 {
-  "title": "Vaizen — India's First IP Marketplace",
+  "title": "Vaizen - India's First IP Marketplace",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "hero": {
@@ -15,15 +15,15 @@
   "categories": [
     {
       "title": "For Filmmakers",
-      "icon": "🎬",
+      "icon": "film",
       "points": ["List your project", "Build your team", "Match with investors"],
-      "url": "for-creators.html"
+      "url": "for-creators"
     },
     {
       "title": "For IP Investors",
-      "icon": "📊",
+      "icon": "briefcase",
       "points": ["Create your profile", "Provide accreditation", "Get vetted deal flow"],
-      "url": "for-investors.html"
+      "url": "for-investors"
     }
   ],
   "stats": [
@@ -46,46 +46,46 @@
   ],
   "signals": [
     {
-      "icon": "💰",
+      "icon": "trending-up",
       "name": "$230B+ Market",
       "description": "The global content licensing and distribution market. The majority of this value flows through opaque, relationship-dependent channels. Vaizen makes it structural and searchable."
     },
     {
-      "icon": "📈",
+      "icon": "tv",
       "name": "Streaming Fragmentation",
       "description": "Dozens of new platforms launched globally since 2020, each competing for indie content. More buyers, same broken discovery infrastructure. The demand has never been greater."
     },
     {
-      "icon": "🎯",
+      "icon": "scale",
       "name": "No Neutral Platform",
-      "description": "Cinando and TVSL are dated and closed-network. There is no Bloomberg Terminal for film rights. That is the gap Vaizen fills — and it is already built."
+      "description": "There is no verified, neutral marketplace for film IP. Existing platforms are closed, dated, and built around who you know. Vaizen is the first open platform where verified rights holders and buyers transact directly - no bias, no gatekeeping."
     }
   ],
   "benefits": [
     {
-      "icon": "🌍",
+      "icon": "globe",
       "title": "Direct Access, Global Reach",
       "description": "Co-production deals, international exposure, sale of rights. Reach buyers in 50+ countries without a sales agent or market badge."
     },
     {
-      "icon": "🔍",
+      "icon": "layers",
       "title": "Structured Discovery",
-      "description": "Organise your outreach strategy — not in a messy email inbox anymore. Buyers filter by genre, territory, festival pedigree, cast, director, and release window."
+      "description": "Organise your outreach strategy - not in a messy email inbox anymore. Buyers filter by genre, territory, festival pedigree, cast, director, and release window."
     },
     {
-      "icon": "📋",
+      "icon": "calendar-check",
       "title": "Avails Engine",
-      "description": "Structure your avails. Multi-territory licensing availability declared upfront. Buyers know what's available before the first conversation — by window, by territory."
+      "description": "Structure your avails. Multi-territory licensing availability declared upfront. Buyers know what's available before the first conversation - by window, by territory."
     },
     {
-      "icon": "🔒",
+      "icon": "shield-check",
       "title": "Verified Identities",
       "description": "Proper identity checks guaranteed. Work only with verified professionals with proper track record. Screeners reach verified acquisition professionals, not anonymous inboxes."
     },
     {
-      "icon": "⚡",
+      "icon": "clock",
       "title": "Always On",
-      "description": "The marketplace that never sleeps. Unlike Cannes or AFM, deals can start at 2am on a Tuesday — from anywhere in the world."
+      "description": "The marketplace that never sleeps. Unlike Cannes or AFM, deals can start at 2am on a Tuesday - from anywhere in the world."
     }
   ]
 }
