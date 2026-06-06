@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-7 col-xl-6">
                     <h1 class="hero-heading mb-4">
-                        {{ page.hero.line1 | default("The platform") }}<br>
-                        <span class="hero-heading-accent">{{ page.hero.line2 | default("built for rights.") }}</span>
+                        {{ page.hero.line1 }}<br>
+                        <span class="hero-heading-accent">{{ page.hero.line2 }}</span>
                     </h1>
                     <p class="hero-sub mb-5">{{ page.hero.description }}</p>
                     <div class="d-flex gap-3 flex-wrap">
@@ -44,31 +44,8 @@
         </div>
     </section>
 
-    <!-- The Solution -->
-    <section class="py-5 bg-white">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title fw-bold mb-2">{{ page.solution.title }}</h2>
-                <p class="section-sub text-muted">{{ page.solution.subtitle }}</p>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
-                {% for benefit in page.solution.benefits %}
-                <div class="col">
-                    <div class="card h-100 text-center">
-                        <div class="card-body p-4">
-                            <div class="benefit-emoji mb-3">{{ benefit.icon }}</div>
-                            <h5 class="fw-semibold mb-3">{{ benefit.title }}</h5>
-                            <p class="text-muted mb-0">{{ benefit.description }}</p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
     <!-- Supply & Demand -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-white">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title fw-bold mb-2">{{ page.variables.title }}</h2>
@@ -82,29 +59,6 @@
                             <div class="step-badge mx-auto mb-4">{{ variable.number }}</div>
                             <h5 class="fw-semibold mb-3">{{ variable.title }}</h5>
                             <p class="text-muted mb-0">{{ variable.description }}</p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
-    <!-- The Signals -->
-    <section class="py-5 bg-white">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title fw-bold mb-2">{{ page.metrics.title }}</h2>
-                <p class="section-sub text-muted">{{ page.metrics.subtitle }}</p>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                {% for metric in page.metrics.items %}
-                <div class="col">
-                    <div class="card h-100 text-center">
-                        <div class="card-body p-4">
-                            <div class="benefit-emoji mb-3">{{ metric.icon }}</div>
-                            <h5 class="fw-semibold mb-3">{{ metric.name }}</h5>
-                            <p class="text-muted mb-0">{{ metric.description }}</p>
                         </div>
                     </div>
                 </div>

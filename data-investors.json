@@ -1,20 +1,13 @@
 {
-  "title": "For Buyers \u2014 Vaizen",
+  "title": "For IP Investors — Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Search. Discover. Acquire.",
-      "description": "Discover and acquire independent film and TV titles \u2014 with declared avails, verified rights holders, and all materials in one place. Vaizen is launching soon.",
-      "buttons": [
-        {
-          "text": "Want to Know More?",
-          "url": "#contact-modal",
-          "class": "btn-primary"
-        }
-      ],
       "line1": "Acquisition,",
-      "line2": "reimagined."
+      "line2": "reimagined.",
+      "description": "Discover and acquire independent film and TV titles — with declared avails, verified rights holders, and all materials in one place.",
+      "buttons": []
     },
     "model": {
       "title": "From Search to Screening in Minutes",
@@ -28,22 +21,22 @@
         {
           "number": "2",
           "title": "Search the Marketplace",
-          "description": "Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more. Every result is a title with declared avails."
+          "description": "Filter by genre, country of production, director, cast, festival pedigree, release window, content advisory, and more."
         },
         {
           "number": "3",
           "title": "Review Declared Avails",
-          "description": "Each title lists its territory-by-territory licensing availability upfront \u2014 AVOD, SVOD, TVOD, Pay TV, Free TV. Know what's available before the first conversation."
+          "description": "Each title lists its territory-by-territory licensing availability upfront — AVOD, SVOD, TVOD, Pay TV, Free TV. Know what's available before the first conversation."
         },
         {
           "number": "4",
           "title": "Request a Screener",
-          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials \u2014 video, metadata, artwork \u2014 in one place."
+          "description": "Contact rights holders directly through the platform. No intermediaries. No guessing who owns what. All materials — video, metadata, artwork — in one place. Bid on the avails."
         },
         {
           "number": "5",
           "title": "Close the Deal",
-          "description": "Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery \u2014 all on platform."
+          "description": "Negotiate and close licensing deals with verified counterparties. Chain of title documentation, avails confirmation, and materials delivery — all on platform."
         }
       ]
     },
@@ -52,32 +45,32 @@
       "subtitle": "Everything you need. Nothing you don't.",
       "items": [
         {
-          "icon": "\ud83c\udfaf",
+          "icon": "🎯",
           "title": "Active, Verified Listings",
           "description": "Every title on Vaizen has been submitted by a verified rights holder with declared avails. No dead listings. No unanswered screener requests."
         },
         {
-          "icon": "\ud83d\udd0d",
+          "icon": "🔍",
           "title": "Advanced Search",
           "description": "Filter across genre, territory, production country, director, cast, festival pedigree, content advisory, and release window simultaneously."
         },
         {
-          "icon": "\ud83d\udccb",
+          "icon": "📋",
           "title": "Upfront Avails",
           "description": "Territory-by-territory licensing availability declared before the first conversation. AVOD, SVOD, TVOD, Pay TV, Free TV across 50+ countries."
         },
         {
-          "icon": "\ud83d\udcc1",
+          "icon": "📁",
           "title": "Materials Ready",
-          "description": "Video screeners, metadata packages, artwork, and legal documents \u2014 all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed."
+          "description": "Video screeners, metadata packages, artwork, and legal documents — all uploaded by rights holders and accessible on demand. No chasing materials after interest is confirmed."
         },
         {
-          "icon": "\ud83d\udd12",
+          "icon": "🔒",
           "title": "Verified Rights Holders",
           "description": "Every seller is identity-verified. You know who you're dealing with before you pick up the phone. Legitimate rights ownership confirmed at registration."
         },
         {
-          "icon": "\u26a1",
+          "icon": "⚡",
           "title": "Always Available",
           "description": "Search and discover at any hour, from any time zone. The marketplace doesn't have conference hours. Acquisition doesn't stop because the market ended."
         }
@@ -88,43 +81,14 @@
       "subtitle": "And why it needed to change",
       "comparisons": [
         {
-          "icon": "\u274c",
+          "icon": "❌",
           "title": "The Old Way",
           "description": "Sales agents. Market badges. Screener links in email chains. Weeks of back-and-forth to find out if rights are even available for your territory. Expensive, slow, and closed-network."
         },
         {
-          "icon": "\u2705",
+          "icon": "✅",
           "title": "The Vaizen Way",
-          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes \u2014 not after three calls across time zones."
-        },
-        {
-          "icon": "\ud83c\udf0d",
-          "title": "The Cinando Problem",
-          "description": "Cinando and TVSL are dated, expensive, and built around closed networks. Vaizen is open, searchable, and designed for how streaming platforms actually acquire content today."
-        }
-      ]
-    },
-    "metrics": {
-      "title": "Search Every Dimension That Matters",
-      "subtitle": "Find exactly what your platform or distribution slate needs",
-      "items": [
-        {
-          "icon": "\ud83c\udfac",
-          "name": "Genre & Format",
-          "description": "Filter by documentary, drama, thriller, comedy, animation, and more. Feature film, TV series, miniseries, or short \u2014 every format supported.",
-          "insight": "Find titles that fit your platform's content strategy, not just what's available"
-        },
-        {
-          "icon": "\ud83d\uddfa\ufe0f",
-          "name": "Territory & Avails",
-          "description": "Search by licensing window \u2014 AVOD, SVOD, TVOD \u2014 within specific territories or worldwide. Declared availability means no surprises mid-negotiation.",
-          "insight": "Know what's licensable before you make first contact"
-        },
-        {
-          "icon": "\ud83c\udfc6",
-          "name": "Festival Pedigree & Talent",
-          "description": "Filter by festival (Sundance, TIFF, Cannes, Berlin, and more), director, cast, and country of production. Surface titles that carry the curatorial signal your audience expects.",
-          "insight": "Festival pedigree is a proven acquisition shortcut for quality signal"
+          "description": "Structured marketplace with declared avails. Search by any attribute. Reach verified rights holders directly. Interest confirmed in minutes — not after three calls across time zones. Manage your IP portfolio easily, no industry bias."
         }
       ]
     },
@@ -134,7 +98,7 @@
       "models": [
         {
           "name": "Traditional Process",
-          "icon": "\u2192",
+          "icon": "→",
           "points": [
             "Attend AFM, Cannes, or MIPCOM",
             "Receive screener links from sales agents",
@@ -147,13 +111,13 @@
         },
         {
           "name": "Vaizen",
-          "icon": "\u2713",
+          "icon": "✓",
           "points": [
             "Search structured marketplace 24/7 from anywhere",
             "Review declared avails before first contact",
             "Reach verified rights holders directly on platform",
             "All materials available on demand",
-            "Discuss terms directly \u2014 no middleman overhead",
+            "Discuss terms directly — no middleman overhead",
             "Advanced filter across every acquisition parameter",
             "Global access, always on, no conference required"
           ]

@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-lg-7 col-xl-6">
                     <h1 class="hero-heading mb-4">
-                        {{ page.hero.line1 | default("Acquisition,") }}<br>
-                        <span class="hero-heading-accent">{{ page.hero.line2 | default("reimagined.") }}</span>
+                        {{ page.hero.line1 }}<br>
+                        <span class="hero-heading-accent">{{ page.hero.line2 }}</span>
                     </h1>
                     <p class="hero-sub mb-5">{{ page.hero.description }}</p>
                     <div class="d-flex gap-3 flex-wrap">
@@ -74,7 +74,7 @@
                 <h2 class="section-title fw-bold mb-2">{{ page.risk.title }}</h2>
                 <p class="section-sub text-muted">{{ page.risk.subtitle }}</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+            <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
                 {% for comparison in page.risk.comparisons %}
                 <div class="col">
                     <div class="card h-100 text-center">
@@ -90,34 +90,8 @@
         </div>
     </section>
 
-    <!-- Search Dimensions -->
-    <section class="py-5 bg-white">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title fw-bold mb-2">{{ page.metrics.title }}</h2>
-                <p class="section-sub text-muted">{{ page.metrics.subtitle }}</p>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
-                {% for metric in page.metrics.items %}
-                <div class="col">
-                    <div class="card h-100 text-center">
-                        <div class="card-body p-4">
-                            <div class="benefit-emoji mb-3">{{ metric.icon }}</div>
-                            <h5 class="fw-semibold mb-3">{{ metric.name }}</h5>
-                            <p class="text-muted mb-3">{{ metric.description }}</p>
-                            {% if metric.insight %}
-                            <div class="insight-chip text-start">{{ metric.insight }}</div>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
-
     <!-- Traditional vs Vaizen -->
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-white">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title fw-bold mb-2">{{ page.comparison.title }}</h2>
@@ -128,10 +102,10 @@
                 <div class="col">
                     <div class="card h-100">
                         <div class="card-body p-4">
-                            <h5 class="fw-semibold mb-3 pb-3 border-bottom" style="border-color: var(--divider) !important;">{{ model.name }}</h5>
+                            <h5 class="fw-semibold mb-3 pb-3" style="border-bottom: 1px solid var(--divider);">{{ model.name }}</h5>
                             <ul class="comparison-list mb-0">
                                 {% for point in model.points %}
-                                <li class="py-2 border-bottom text-muted">
+                                <li class="py-2 text-muted">
                                     <span class="me-2">{{ model.icon }}</span>{{ point }}
                                 </li>
                                 {% endfor %}

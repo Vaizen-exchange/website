@@ -1,39 +1,32 @@
 {
-  "title": "For Rights Holders \u2014 Vaizen",
+  "title": "For IP Originators — Vaizen",
   "siteName": "Vaizen",
   "currentYear": "2026",
   "page": {
     "hero": {
-      "heading": "Your Titles. Global Reach. No Gatekeepers.",
-      "description": "Onboard your film or TV title once. Define your avails territory by territory. Reach distributors and platforms in 50+ countries \u2014 without a sales agent, a market badge, or weeks of back-and-forth.",
-      "buttons": [
-        {
-          "text": "Want to Know More?",
-          "url": "#contact-modal",
-          "class": "btn-primary"
-        }
-      ],
-      "line1": "Your title.",
-      "line2": "Global buyers."
+      "line1": "Your Titles. Global Reach.",
+      "line2": "No Gatekeepers.",
+      "description": "Onboard your title once and set your territory rights. Our platform's sales agent will put your project in front of distributors in 50+ countries — saving you from costly networking trips and weeks of back-and-forth.",
+      "buttons": []
     },
     "valueTransfer": {
-      "title": "From Submission to Discovery \u2014 All on Platform",
+      "title": "From Submission to Discovery — All on Platform",
       "subtitle": "Take control of your title's licensing journey",
       "steps": [
         {
-          "icon": "\ud83c\udfac",
+          "icon": "🎬",
           "title": "Onboard Your Title",
           "description": "Upload your video screener, metadata, artwork, cast & crew, and supporting documents. All in one structured workflow, all in minutes. Your title enters the marketplace immediately."
         },
         {
-          "icon": "\ud83d\uddfa\ufe0f",
+          "icon": "🗺️",
           "title": "Set Your Avails",
           "description": "Define licensing availability territory by territory across AVOD, SVOD, TVOD, Pay TV, and Free TV. Choose worldwide, include-list, or exclude-list for each window. Full control, always."
         },
         {
-          "icon": "\ud83d\udce3",
+          "icon": "📣",
           "title": "Go Live and Get Found",
-          "description": "Your title surfaces in buyer searches the moment you publish. Buyers filtering by genre, director, festival, or territory find you directly \u2014 no intermediary required."
+          "description": "Your title surfaces in buyer searches the moment you publish. Buyers filtering by genre, director, festival, or territory find you directly — no intermediary required."
         }
       ]
     },
@@ -42,32 +35,32 @@
       "subtitle": "Every feature designed around how you actually work",
       "items": [
         {
-          "icon": "\ud83c\udf0d",
+          "icon": "🌍",
           "title": "Global Buyer Network",
           "description": "Reach acquisition executives at streaming platforms, broadcasters, and distributors across 50+ countries. No conference pass required."
         },
         {
-          "icon": "\ud83d\udccb",
+          "icon": "📋",
           "title": "Avails Engine",
           "description": "Multi-territory rights management across 50+ countries. Worldwide, include-list, and exclude-list supported. Configure each licensing window independently."
         },
         {
-          "icon": "\ud83d\udd0d",
+          "icon": "🔍",
           "title": "Searchable Metadata",
           "description": "Your title surfaces when buyers search by genre, director, cast, festival, country of production, or release window. Structured data, not a static PDF."
         },
         {
-          "icon": "\ud83d\udcc1",
+          "icon": "📁",
           "title": "One Place for Everything",
-          "description": "Video, metadata, artwork, documents, and licensing terms \u2014 all organized and accessible to qualified buyers on demand. No more scattered screener links."
+          "description": "Video, metadata, artwork, documents, and licensing terms — all organized and accessible to qualified buyers on demand. No more scattered screener links."
         },
         {
-          "icon": "\ud83d\udd12",
+          "icon": "🔒",
           "title": "Verified Buyers Only",
           "description": "Every buyer on the platform is identity-verified. Your screener reaches verified acquisition professionals, not anonymous inboxes."
         },
         {
-          "icon": "\ud83d\udcca",
+          "icon": "📊",
           "title": "Real-Time Visibility",
           "description": "See which buyers viewed your title, which territories they searched, and how your listing performs. Actionable intelligence, not silence."
         }
@@ -109,7 +102,7 @@
         },
         {
           "title": "Your Titles, Always Working",
-          "description": "The Vaizen marketplace operates 24/7. Buyers in Frankfurt, Singapore, or S\u00e3o Paulo can discover your title while you sleep. No conference schedule. No market hours."
+          "description": "The Vaizen marketplace operates 24/7. Buyers in Frankfurt, Singapore, or São Paulo can discover your title while you sleep. No conference schedule. No market hours."
         },
         {
           "title": "You Stay In Control",
